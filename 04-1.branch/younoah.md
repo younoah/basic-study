@@ -142,9 +142,9 @@ git merge --continue
 
 ### fast-forward merge
 
-![merge1](/Users/uno/Desktop/merge1.png)
+<img width="449" alt="merge1" src="https://user-images.githubusercontent.com/41064875/107016750-a8aacb00-67e1-11eb-9ae5-9589d7f16a3c.png">
 
-![merge2](/Users/uno/Desktop/merge2.png)
+<img width="451" alt="merge2" src="https://user-images.githubusercontent.com/41064875/107016758-a9dbf800-67e1-11eb-8881-302d1f8b2e4e.png">
 
 
 
@@ -165,7 +165,7 @@ git branch -d branch1
 
 merge 기록까지 모두 히스토리에 남기고 싶다면 아래와 같이 c커밋과 e커밋을 합한 f커밋을 새로 만들고 master브랜치에 커밋한다. 이렇게 하면 branch1이 merge되었다는 것을 기록에 남길 수 있다.
 
-![merge3](/Users/uno/Desktop/merge3.png)
+<img width="446" alt="merge3" src="https://user-images.githubusercontent.com/41064875/107016765-ab0d2500-67e1-11eb-8bd0-da490e0e4cb4.png">
 
 
 
@@ -178,7 +178,7 @@ git merge --no-ff branch1 # --no-ff 옵션: no fast-forward
 
 ### fast-forward merge가 불가능한 상황
 
-![merge4](/Users/uno/Desktop/merge4.png)
+<img width="481" alt="merge4" src="https://user-images.githubusercontent.com/41064875/107016761-aa748e80-67e1-11eb-9435-308097514814.png">
 
 위와 같은 상황이 fast-forward merge가 불가능한 상황이다. 커밋 e로 master브랜치를 fast-forward merge 하게되면 커밋 f와 커밋g를 잃게 된다. 따라서 no-fast-forward merge를 진행해야 한다. 
 
