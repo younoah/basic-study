@@ -55,7 +55,6 @@ git merge --no-ff feature-c //feature-c라는 branch를 fast-forward merge를 �
 
 - fast-forward merge가 불가능한 경우(아래 사진 같은 경우)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f110fb7-ff9b-49b8-8349-33db38071fb3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f110fb7-ff9b-49b8-8349-33db38071fb3/Untitled.png)
 
 ```bash
 
@@ -70,7 +69,6 @@ git merge --no-ff feature-c //feature-c라는 branch를 fast-forward merge를 �
 - merge 시 자동적으로 해결할 수 없는 문제가 있을 때 충돌 : conflict
 - 두 가지 branch에서 동일한 파일을 수정한 경우 Git이 어떤 내용을 추가해야할 지 결정할 수 없을 때 conflict 발생
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09cd81c5-9c78-4b24-8ccd-ea8a20de4438/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09cd81c5-9c78-4b24-8ccd-ea8a20de4438/Untitled.png)
 
 - 수동적으로 할 방법
 
