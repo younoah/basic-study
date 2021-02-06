@@ -47,7 +47,7 @@ git mergetool
 
 - vscode에서 conflict 해결하기
 
-![2021-02-06_19-21-37](/Users/uno/Desktop/2021-02-06_19-21-37.png)
+![mergetool11](https://user-images.githubusercontent.com/41064875/107117261-7752fd80-68bc-11eb-9686-8acd32d64801.png)
 
 3가지 옵션중 한가지를 클릭하고 저장한다.
 
@@ -60,7 +60,7 @@ Compare Change는 2개의 파일을 각각 열어서 비교해준다.
 
 - ❗️merge의 부산물
 
-![2021-02-06_19-25-19](/Users/uno/Desktop/2021-02-06_19-25-19.png)
+![mergetoo2](https://user-images.githubusercontent.com/41064875/107117259-76ba6700-68bc-11eb-9432-3f112cd84b1c.png)
 
 vscode로 merge를 하고 나면 `파일명.확장자.orig` 파일이 생긴것을 확인할 수 있다.
 
@@ -119,13 +119,13 @@ rebase를 활용하면 fast-forward merge를 할 수 있다.
 
 - fast-forward merge가 불가능한 상황 (three-way merge case)
 
-![rebase1](/Users/uno/Desktop/rebase1.png)
+<img width="700" alt="rebase1" src="https://user-images.githubusercontent.com/41064875/107117264-791cc100-68bc-11eb-9ed5-253690a194aa.png">
 
 위 이미지는 현재 fast-forward merge가 불가능한 상황인 three-way merge case이다. 
 
 
 
-![rebase2](/Users/uno/Desktop/rebase2.png)
+<img width="682" alt="rebase2" src="https://user-images.githubusercontent.com/41064875/107117265-791cc100-68bc-11eb-9417-ebe94931cfee.png">
 
 `branch1` 을 커밋 `f`를 가리키게 rebase를 한다면 fast-forward merge가 가능하다.
 
@@ -175,7 +175,7 @@ git merge branch1 #  fast-forward merge 진행
 
 
 
-![rebase--onto1](/Users/uno/Desktop/rebase--onto1.png)
+![rebase--onto1](https://user-images.githubusercontent.com/41064875/107117262-77eb9400-68bc-11eb-8365-ceee994fe605.png)
 
 예를 들어 위의 이미지와 같이 `server` 브랜치에서 파생된 `client` 브랜치가 있다고 하자. 
 
@@ -189,7 +189,7 @@ git rebase --onto master server client
 
 해당 명령어를 수행하면 아래 이미지와 같이 `client` 브랜치가 변경된 것을 확인할 수 있다.
 
-![rebase--onto2](/Users/uno/Desktop/rebase--onto2.png)
+![rebase--onto2](https://user-images.githubusercontent.com/41064875/107117263-78842a80-68bc-11eb-96e4-ac2f115ab613.png)
 
 
 
@@ -201,7 +201,7 @@ cherry pick은 다른 브랜치에 있는 내가 원하는 커밋 1개를 가지
 
 아래 이미지와 같이 `e` 라는 커밋만을 master 브랜치로 가지고 오고 싶다고 하자.
 
-![cherrypick1](/Users/uno/Desktop/cherrypick1.png)
+<img width="681" alt="cherrypick1" src="https://user-images.githubusercontent.com/41064875/107117255-74580d00-68bc-11eb-99df-8151e51cbf0e.png">
 
 
 
@@ -216,7 +216,8 @@ git cherry-pick 해시코드(e커밋)
 
  아래 이미지 처럼 `e` 라는 커밋만을 master 브랜치로 가지고 올 수 있다.
 
-![cherrypick2](/Users/uno/Desktop/cherrypick2.png)
+<img width="680" alt="cherrypick2" src="https://user-images.githubusercontent.com/41064875/107117257-7621d080-68bc-11eb-8f12-a0669d182b6d.png">
+
 
 
 
