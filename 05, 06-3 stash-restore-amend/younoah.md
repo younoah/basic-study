@@ -1,6 +1,6 @@
 ## stash
 
-![stash1](./images/stash1.png)
+<img width="579" alt="stash1" src="https://user-images.githubusercontent.com/41064875/107145825-8b176600-6987-11eb-8a00-2f8d389961b4.png">
 
 git에는 stash stack이 존재한다. 
 
@@ -92,7 +92,7 @@ git stash clear #deletes all the stashes
 
 #### tracked 파일의 변경사항(modified) 초기화
 
-![restore1](/Users/uno/Desktop/restore1.png)
+<img width="507" alt="restore1" src="https://user-images.githubusercontent.com/41064875/107145829-8eaaed00-6987-11eb-916d-82b07e7634c7.png">
 
 tracked 파일의 내용을 수정하면 git에서 자동으로 modified로 지정되는데 
 
@@ -110,7 +110,7 @@ tracked 파일의 수정된 내용을 되돌릴수 있다.  (modified 내용 삭
 
 #### staging area에 올라간 파일을 되돌리기
 
-![restore2](/Users/uno/Desktop/restore2.png)
+<img width="369" alt="restore2" src="https://user-images.githubusercontent.com/41064875/107145828-8e125680-6987-11eb-9a52-faff2a7253cb.png">
 
 여기 staging area에 올라간 파일이 있다.
 
@@ -123,7 +123,7 @@ git restore --source=hash file.txt
 
 staging area에 올라가 있는 파일을  staging area에서 빼낼수 있다.
 
-![restore3](/Users/uno/Desktop/restore3.png)
+<img width="503" alt="restore3" src="https://user-images.githubusercontent.com/41064875/107145827-8ce12980-6987-11eb-9381-030bb49e101a.png">
 
 빼내고 나면 위의 이미지와 같이 staging area에서는 나와 working directory로 옮겨진다.
 
