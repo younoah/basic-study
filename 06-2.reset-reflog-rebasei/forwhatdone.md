@@ -34,8 +34,8 @@ git reset --hard 해시태그
 ```
 
 - 주의!
-    - commit 이후 git reset ?hard 를 이용할 것
-    - commit 이전에 local 에 작성한 파일을 git reset ?hard 를 이용해 초기화를했다면 다시돌아갈 확률이 적다!
+    - commit 이후 git reset --hard 해시코드를 이용할 것
+    - commit 이전에 local 에 작성한 파일을 git reset --hard 를 이용해 초기화를했다면 다시돌아갈 확률이 적다!
         - intelliJ idea에는 기본적으로 local history가 포함됨
         - local history extension 설치 후
 
