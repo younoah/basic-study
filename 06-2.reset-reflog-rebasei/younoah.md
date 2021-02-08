@@ -40,13 +40,13 @@ git reset --hard HEAD #removes the commit and don't keep the code
 
 ### 예제
 
-![reflog1](/Users/uno/Desktop/reflog1.png)
+<img width="517" alt="reflog1" src="https://user-images.githubusercontent.com/41064875/107183389-12b1b300-6a22-11eb-8ac5-be90c7dc5f9a.png">
 
 처음 깃 히스토리 에서 "update hello.txt"(`0020e11`) 로 `git reset --hard 0020e1` 로 커밋을 되돌려 보겠다.
 
 
 
-![reflog2](/Users/uno/Desktop/reflog2.png)
+<img width="521" alt="reflog2" src="https://user-images.githubusercontent.com/41064875/107183395-147b7680-6a22-11eb-9828-1dd4a1416efe.png">
 
 `git reset --hard 0020e1` 결과 위와 같은 상태가 되었다. 그런데 다시 "update about.txt"(`20a0cbc`) 로 돌아가고 싶다면 어떻게 할까?
 
@@ -58,7 +58,7 @@ git reset --hard HEAD #removes the commit and don't keep the code
 git reflog
 ```
 
-![reflog3](/Users/uno/Desktop/reflog3.png)
+<img width="423" alt="reflog3" src="https://user-images.githubusercontent.com/41064875/107183394-13e2e000-6a22-11eb-8eb9-888e2765fea8.png">
 
 위와 같이 해당 깃 히스토리에 대한 모든 레퍼런스르 확인할 수 있다. 여기서 내가 돌아고 싶은 시점인 `20a0cbc` 해시코드를 확인한다.
 
@@ -78,7 +78,7 @@ git reset --hard 20a0cbc
 >
 > **`git reset 20a0cbc` 을 진행 했을 경우**
 >
-> ![reflog4](/Users/uno/Desktop/reflog4.png)
+> <img width="505" alt="reflog4" src="https://user-images.githubusercontent.com/41064875/107183392-134a4980-6a22-11eb-9145-22165165f777.png">
 >
 > 현재 워킹디렉토리에는 new.txt가 없는 상태이기 때문에 이 상태가 반영이 되버린다. 따라서 new.txt가 있는 커밋 버전으로 돌아갔음에도 불구하고 해당 파일이 삭제되거나 내용을 잃을수 있기 때문에 `--hard` 옵션으로 되돌려야 한다.
 
@@ -86,7 +86,7 @@ git reset --hard 20a0cbc
 
 **최종 결과**
 
-![reflog1](/Users/uno/Desktop/reflog1.png)
+<img width="517" alt="reflog1" src="https://user-images.githubusercontent.com/41064875/107183389-12b1b300-6a22-11eb-8ac5-be90c7dc5f9a.png">
 
 `git reflog` 와 `git reset --hard` 명령어를 통해서 깔끔하게 원래대로 되돌아 왔다.
 
@@ -122,7 +122,7 @@ update # 새로 추가한 내용 (커밋 : update login.txt)
 
 **(커밋 log)**
 
-![revert1](/Users/uno/Desktop/revert1.png)
+<img width="517" alt="revert1" src="https://user-images.githubusercontent.com/41064875/107183381-10e7ef80-6a22-11eb-9bdf-ee1ee1510032.png">
 
 
 
@@ -136,13 +136,13 @@ update # 새로 추가한 내용 (커밋 : update login.txt)
 git revert 2682273
 ```
 
-![revert2](/Users/uno/Desktop/revert2.png)
+<img width="670" alt="revert2" src="https://user-images.githubusercontent.com/41064875/107183383-11808600-6a22-11eb-8fd4-ac13318ae2f3.png">
 
 명령어를 치면 위와 같이 커밋이 진행되며선 커밋메시지를 작성하도록 뜬다. 저장하고 종료해보자.
 
 
 
-![revert3](/Users/uno/Desktop/revert3.png)
+<img width="573" alt="revert3" src="https://user-images.githubusercontent.com/41064875/107183385-11808600-6a22-11eb-9031-2ecd8625d574.png">
 
 다시 log를 확인해보면 "update uset.txt" 커밋이 revert 되었다는 커밋이 새로 추가된 것을 확인할 수 있다.
 
@@ -161,7 +161,7 @@ user.txt 파일을 열어보면 update 내용이 삭제된것을 확인해 볼�
 
 revert 할 때 `--no-commit` 옵션을 주면 커밋을 하지 않고 변경사항이 staging area에만 추가 되어진다. 
 
-![revert4](/Users/uno/Desktop/revert4.png)
+<img width="430" alt="revert4" src="https://user-images.githubusercontent.com/41064875/107183386-12191c80-6a22-11eb-9dd8-54fa270310cc.png">
 
 위 이미지와 같이 user.txt 안에  "update" 라는 내용이 삭제된 상태가 staging area에 추가되어있다. 
 
@@ -179,7 +179,7 @@ revert 할 때 `--no-commit` 옵션을 주면 커밋을 하지 않고 변경사�
 
 
 
-![rebase-i1](/Users/uno/Desktop/rebase-i1.png)
+<img width="518" alt="rebase-i1" src="https://user-images.githubusercontent.com/41064875/107183368-0decff00-6a22-11eb-9ed2-0d264516e674.png">
 
 이 히스토리에서 WIP 커밋메세지를 수정해보자.
 
@@ -195,7 +195,7 @@ git rebase -i 726898b
 
 
 
-![rebase-i2](/Users/uno/Desktop/rebase-i2.png)
+<img width="662" alt="rebase-i2" src="https://user-images.githubusercontent.com/41064875/107183372-0e859580-6a22-11eb-99b5-d6a986674ead.png">
 
 명령어를 치면 위와 같이 에디터 창이 열리는데 이곳에서, `726898b` 커밋 이후의 커밋들을 수정할 수 있다. 주석을 보면 다양한 옵션들을 확인해 볼수 있다.
 
@@ -213,21 +213,21 @@ git rebase -i 726898b
 
 
 
-![rebase-i3](/Users/uno/Desktop/rebase-i3.png)
+<img width="218" alt="rebase-i3" src="https://user-images.githubusercontent.com/41064875/107183375-0f1e2c00-6a22-11eb-89ee-89b18e50eb3e.png">
 
 커밋 메시지를 수정하고 싶으니 WIP 커밋 앞에 `r` 혹은 `reword` 키워드를 작성하고 저장한뒤 종료한다.
 
 
 
-![rebase-i4](/Users/uno/Desktop/rebase-i4.png)
+<img width="702" alt="rebase-i4" src="https://user-images.githubusercontent.com/41064875/107183376-0fb6c280-6a22-11eb-915d-e5a8c44765d5.png">
 
 종료하고 나면 다시 새로운 창이 실행되면서 커밋 메시지를 수정할 수 있게 된다. 여기서 커밋메시지를 수정하고 종료 해보자. ("WIP" → "change commit message" 라고 수정함.)
 
 
 
-![rebase-i5](/Users/uno/Desktop/rebase-i5.png)
+<img width="365" alt="rebase-i5" src="https://user-images.githubusercontent.com/41064875/107183379-104f5900-6a22-11eb-812c-06e49b4430e0.png">
 
-![rebase-i5](/Users/uno/Desktop/rebase-i6.png)
+<img width="518" alt="rebase-i6" src="https://user-images.githubusercontent.com/41064875/107183388-12191c80-6a22-11eb-9ee3-ecd694573d78.png">
 
 rebase가 완료되고 커밋 메시지도 변경된것을 확인할 수 있다.
 
@@ -237,7 +237,7 @@ rebase가 완료되고 커밋 메시지도 변경된것을 확인할 수 있다.
 
 
 
-![](/Users/uno/Desktop/rebase-i1.png)
+<img width="518" alt="rebase-i1" src="https://user-images.githubusercontent.com/41064875/107183368-0decff00-6a22-11eb-9ed2-0d264516e674.png">
 
 이번에는 "WIP" 커밋을 삭제해보자.
 
@@ -251,7 +251,7 @@ git rebase -i 726898b
 
 
 
-  ![deleteCommit1](/Users/uno/Desktop/deleteCommit1.png)
+<img width="221" alt="deleteCommit1" src="https://user-images.githubusercontent.com/41064875/107183350-07f71e00-6a22-11eb-8786-664ad5e1db7c.png">
 
 d or drop 옵션 선택, 저장후 종료하면 커밋이 삭제된다.
 
@@ -259,7 +259,7 @@ d or drop 옵션 선택, 저장후 종료하면 커밋이 삭제된다.
 
 만약 아래 이미지와 같이 충돌이 발생할 수도 있다.
 
-![deleteCommit2](/Users/uno/Desktop/deleteCommit2.png)
+![deleteCommit2](https://user-images.githubusercontent.com/41064875/107183356-09c0e180-6a22-11eb-96d8-71ab29d612d8.png)
 
 이는 내가 삭제한 커밋이 이후에 오는 커밋과 연관이 있기 때문에 커밋이 충돌나는 경우이다.
 
@@ -267,7 +267,7 @@ d or drop 옵션 선택, 저장후 종료하면 커밋이 삭제된다.
 
 (git status)
 
-![deleteCommit3](/Users/uno/Desktop/deleteCommit3.png)
+![deleteCommit3](https://user-images.githubusercontent.com/41064875/107183363-0c233b80-6a22-11eb-9249-f4d4f911ca4f.png)
 
 이 때는 간단하게 삭제된 커밋을 내용을 그대로 사용해도 되기 때문에 `git add` 명령어로 이어 나가면 된다.
 
