@@ -46,12 +46,9 @@ git rebase -i 해시코드
 - local(내 PC)에만 git repository를 만들고 간직한다면 내 PC에 문제가 생기거나 다른 환경에서 작업을 하고 싶을 때 repository에 접근이 불가능
 - 위의 문제를 해결하거나 다른 사람들과의 협업을 위해서 **remote라는 server에 나의 git repository를 업로드**해두어서 항상 다른 PC에서도 접근이 가능하고 다른 개발자들과 함께 일을 할 수 있도록 하기 위해서 sever 를 이용
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b974f9a2-2692-4807-92ec-f28f065fffb5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b974f9a2-2692-4807-92ec-f28f065fffb5/Untitled.png)
 
 - 깃 특징 및 장점
     - 분산형 시스템
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d502a0d2-a6f0-4cdf-b8e1-4726d585c99d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d502a0d2-a6f0-4cdf-b8e1-4726d585c99d/Untitled.png)
 
     - 각각의 개발자들이 history를 가지고 있음으로서 서로 공유할 수도 가능
     - 문제가 생겼을 때 복원도 가능
@@ -71,7 +68,6 @@ git rebase -i 해시코드
 - 오픈소스 프로젝트 관리자가 나의 pr을 리뷰한다.
 - 오픈소스 프로젝트에 업데이트 된 다른 commit이 있다면 rebase를 이용해서 나의 repository를 최신 버전으로 즉, 오픈소스 프로젝트 sync를해서 최신상태를 유지한 다음에 merge PR을 할수 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4af62d26-56a7-4bc7-bd31-b43eb2485bd0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4af62d26-56a7-4bc7-bd31-b43eb2485bd0/Untitled.png)
 
 ## 7.3 깃허브 계정 만들기
 
@@ -116,8 +112,6 @@ git add .
 git commit -m "Add new file"
 git hist 
 ```
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9bb8c69b-ec8f-4bbe-962f-a515e9f34205/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9bb8c69b-ec8f-4bbe-962f-a515e9f34205/Untitled.png)
 
 - git server 에는 2번째 커밋까지, local은 세번째 commit까지 더 앞서 있는 상태
 
