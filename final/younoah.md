@@ -24,7 +24,7 @@ git push -f # -f 옵션 : 강제 푸쉬
 
 ### fetch
 
-![fetch](/Users/uno/Desktop/git_practice/note/images/fetch.png)
+![fetch](https://user-images.githubusercontent.com/41064875/107731147-90363580-6d38-11eb-8549-65196edfec2a.png)
 
 히스토리를 업데이트 하지만 내가 현재 바라보고 있는 작업 환경인 HEAD(master)는 그대로 유지가 된다. 또한 **merge**가  발생하지 않는다.
 
@@ -34,7 +34,7 @@ fetch는 주로 원격저장소에서 어떤 일들이 발생하고 있는지, �
 
 ### pull
 
-![pull](/Users/uno/Desktop/git_practice/note/images/pull.png)
+![pull](https://user-images.githubusercontent.com/41064875/107731150-93312600-6d38-11eb-83f7-2b5569e19769.png)
 
 히스토리를 업데이트 하면서 나의 local에 있는 내용을 **merge** 한다. 즉, 원격저장소의에 있는 내용을 받아와서 나의 로컬 버전도 원격저장소와 함꼐 동일하게 만든다.
 
