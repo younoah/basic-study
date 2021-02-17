@@ -182,3 +182,153 @@ window.addEventListener('unload', () => {
 
 
 
+## 실습
+
+
+
+### 좌표실습
+
+- html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="line horizontal"></div>
+    <div class="line vertical"></div>
+    <img src="img/target.png" alt="target" class="target" />
+    <span class="tag"></span>
+  </body>
+</html>
+```
+
+
+
+- css
+
+```css
+body {
+  background-color: black;
+}
+
+.line {
+  position: absolute;
+  background-color: white;
+}
+
+.horizontal {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+}
+
+.vertical {
+  height: 100%;
+  width: 1px;
+  left: 50%;
+}
+
+.target {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tag {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 38px;
+  transform: translate(20px, 20px);
+}
+
+```
+
+
+
+- js
+
+```javascript
+const vertical = document.querySelector('.vertical');
+const horizontal = document.querySelector('.horizontal');
+const target = document.querySelector('.target');
+const tag = document.querySelector('.tag');
+
+document.addEventListener('mousemove', event => {
+  const x = event.clientX;
+  const y = event.clientY;
+
+  vertical.style.left = `${x}px`;
+  horizontal.style.top = `${y}px`;
+  target.style.left = `${x}px`;
+  target.style.top = `${y}px`;
+  tag.style.left = `${x}px`;
+  tag.style.top = `${y}px`;
+  tag.innerHTML = `${x}px ${y}px`;
+});
+```
+
+
+
+### 토끼 실습
+
+- html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Scroll</title>
+    <style>
+      body {
+        background-color: black;
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin: auto;
+      }
+      button {
+        outline: none;
+        background-color: tomato;
+        color: white;
+        font-size: 32px;
+        margin: 16px 0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="find">find a rabbit🐰</button>
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img id="rabbit" src="img/rabbit.png" alt="rabbit" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+    <img src="img/carrot.png" alt="carrot" />
+
+    <script>
+      const button = document.querySelector('button');
+      const rabbit = document.querySelector('#rabbit');
+
+      button.addEventListener('click', () => {
+        rabbit.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    </script>
+  </body>
+</html>
+
+```
+
