@@ -76,7 +76,7 @@ coordinates(좌표)
 
 
 
-![cordinate](/Users/uno/Desktop/cordinate.png)
+![cordinate](https://user-images.githubusercontent.com/41064875/108353858-f5ec5b00-722b-11eb-861e-00b567b3339e.png)
 
 - 윈도우에서는  document의 왼쪽 위를 기준(0,0) 으로 하여 top, bottom, left, right를 정의한다.
 - 주의 할 점은 css에서의 bottom, right는 document의 오른쪽 아래쪽에서 기준이 되어 계산된다.
