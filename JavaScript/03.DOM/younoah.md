@@ -14,7 +14,7 @@ DOM으로 바꾼 HTML은 자바스크립트가 조작할 수 있다.
 
 ### Node 상속 관계
 
-![Node](/Users/uno/Desktop/Node.png)
+![Node](https://user-images.githubusercontent.com/41064875/108593762-f49c6900-73b8-11eb-9934-e4a567992133.png)
 
 노드라는 오브젝트는 EventTarget 객체를 상속받는다. 
 
@@ -26,7 +26,7 @@ Element는 다양한 Element 자식들을 상속하고 있다.
 
 ### DOM 트리 예시
 
-![dom-tree](/Users/uno/Desktop/dom-tree.png)
+![dom-tree](https://user-images.githubusercontent.com/41064875/108593765-f9611d00-73b8-11eb-94ce-e85b78ff02a1.png)
 
 
 
@@ -48,7 +48,7 @@ Element는 다양한 Element 자식들을 상속하고 있다.
 
 ### CSSOM(CSS Object Model)
 
-![CSSOM1](/Users/uno/Desktop/CSSOM1.png)
+![CSSOM1](https://user-images.githubusercontent.com/41064875/108593772-00882b00-73b9-11eb-9f76-a1e28c5934a3.png)
 
 
 
@@ -60,7 +60,7 @@ CSSOM에는 정의한 스타일뿐만 아니라 브라우저에서 기본적으�
 
 ### 렌더트리
 
-![renderTree](/Users/uno/Desktop/renderTree.png)
+![renderTree](https://user-images.githubusercontent.com/41064875/108593776-0847cf80-73b9-11eb-8924-0eb9134eb195.png)
 
 
 
@@ -82,7 +82,7 @@ opacity: 0 or visibility: hidden - 렌더트리에는 작성이 되고 눈에만
 
 ## 렌더링 프로세스
 
-![renderProcess](/Users/uno/Desktop/renderProcess.png)
+![renderProcess](https://user-images.githubusercontent.com/41064875/108593780-0da51a00-73b9-11eb-823f-efe2ecc921d1.png)
 
 
 
