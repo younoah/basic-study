@@ -1,6 +1,6 @@
-# 6.1 Events Á¤È®ÇÏ°Ô ÀÌÇØ ÇÏ±â + Á¾·ùµé
+# 6.1 Events ì •í™•í•˜ê²Œ ì´í•´ í•˜ê¸° + ì¢…ë¥˜ë“¤
 
-## ÀÌº¥Æ®°¡ ¹ß»ýÇÏ´Â °æ¿ì
+## ì´ë²¤íŠ¸ê°€ ë°œìƒí•˜ëŠ” ê²½ìš°
 
 - mouse click
 - keyboard
@@ -13,40 +13,40 @@
 
 ## Event Handler
 
-- **Æ¯Á¤ ¿ä¼Ò¿¡¼­ ¹ß»ýÇÏ´Â ÀÌº¥Æ®¸¦ Ã³¸®ÇÏ±â À§ÇØ¼­´Â ÀÌº¥Æ® ÇÚµé·¯(event handler)¶ó´Â ÇÔ¼ö¸¦ ÀÛ¼ºÇÏ¿© ¿¬°á**ÇØ¾ß¸¸ ÇÕ´Ï´Ù. ÀÌº¥Æ® ÇÚµé·¯°¡ ¿¬°áµÈ Æ¯Á¤ ¿ä¼Ò¿¡¼­ ÁöÁ¤µÈ Å¸ÀÔÀÇ ÀÌº¥Æ®°¡ ¹ß»ýÇÏ¸é, À¥ ºê¶ó¿ìÀú´Â ¿¬°áµÈ ÀÌº¥Æ® ÇÚµé·¯¸¦ ½ÇÇàÇÕ´Ï´Ù.
-    - ÀÚ¼¼ÇÑ ¼ø¼­
-        - ÇÚµéÇÏ°í ½ÍÀº ¿ä¼Ò¿¡ ÀÌº¥Æ® ÇÚµé·¯ µî·Ï ¡æ Æ¯Á¤ ¿ä¼Ò¿¡¼­ ÀÌº¥Æ® ¹ß»ý ¡æ ºê¶ó¿ìÀú¿¡¼­ ÀÌº¥Æ®¶ó´Â ¿ÀºêÁ§Æ® »ý¼º ¡æ ´Ù¾çÇÑ Á¤º¸°¡ ´ã±ä ÀÌº¥Æ® ¿ÀºêÁ§Æ®¸¦ ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹é ÇÔ¼ö¿¡ Àü´Þ ¡æ
-- **ÀÌº¥Æ® ÇÚµé·¯¸¦ µî·ÏÇÒ ¼ö ÀÖ´Â ¿ä¼Ò** : EventTarget À» »ó¼ÓÇÏ´Â ¸ðµç ¿ä¼Ò(¸ðµç Element´Â Node¸¦ »ó¼ÓÇÏ°í Node´Â EventTargetÀ» »ó¼ÓÇÏ´Ï±ñ), Áï ¸ðµç Element¿¡ EventHandler¸¦ ´Ù µî·ÏÇÒ ¼ö°¡ ÀÖ½À´Ï´Ù.
-- **½Ç½À**
+- **íŠ¹ì • ìš”ì†Œì—ì„œ ë°œìƒí•˜ëŠ” ì´ë²¤íŠ¸ë¥¼ ì²˜ë¦¬í•˜ê¸° ìœ„í•´ì„œëŠ” ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬(event handler)ë¼ëŠ” í•¨ìˆ˜ë¥¼ ìž‘ì„±í•˜ì—¬ ì—°ê²°**í•´ì•¼ë§Œ í•©ë‹ˆë‹¤. ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ê°€ ì—°ê²°ëœ íŠ¹ì • ìš”ì†Œì—ì„œ ì§€ì •ëœ íƒ€ìž…ì˜ ì´ë²¤íŠ¸ê°€ ë°œìƒí•˜ë©´, ì›¹ ë¸Œë¼ìš°ì €ëŠ” ì—°ê²°ëœ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¥¼ ì‹¤í–‰í•©ë‹ˆë‹¤.
+    - ìžì„¸í•œ ìˆœì„œ
+        - í•¸ë“¤í•˜ê³  ì‹¶ì€ ìš”ì†Œì— ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ ë“±ë¡ â†’ íŠ¹ì • ìš”ì†Œì—ì„œ ì´ë²¤íŠ¸ ë°œìƒ â†’ ë¸Œë¼ìš°ì €ì—ì„œ ì´ë²¤íŠ¸ë¼ëŠ” ì˜¤ë¸Œì íŠ¸ ìƒì„± â†’ ë‹¤ì–‘í•œ ì •ë³´ê°€ ë‹´ê¸´ ì´ë²¤íŠ¸ ì˜¤ë¸Œì íŠ¸ë¥¼ ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°± í•¨ìˆ˜ì— ì „ë‹¬ â†’
+- **ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¥¼ ë“±ë¡í•  ìˆ˜ ìžˆëŠ” ìš”ì†Œ** : EventTarget ì„ ìƒì†í•˜ëŠ” ëª¨ë“  ìš”ì†Œ(ëª¨ë“  ElementëŠ” Nodeë¥¼ ìƒì†í•˜ê³  NodeëŠ” EventTargetì„ ìƒì†í•˜ë‹ˆê¹), ì¦‰ ëª¨ë“  Elementì— EventHandlerë¥¼ ë‹¤ ë“±ë¡í•  ìˆ˜ê°€ ìžˆìŠµë‹ˆë‹¤.
+- **ì‹¤ìŠµ**
 
 ```jsx
 $0.addEventListener('click', () => {console.log('clicked!')});
-$0.dispatchEvent(new Event('click')) // clicked! ÀÌ·¸°Ô ÀÎ°øÀûÀ¸·Î ÀÌº¥Æ®¸¦ Àü´Þµµ °¡´É
+$0.dispatchEvent(new Event('click')) // clicked! ì´ë ‡ê²Œ ì¸ê³µì ìœ¼ë¡œ ì´ë²¤íŠ¸ë¥¼ ì „ë‹¬ë„ ê°€ëŠ¥
 
 /////////////////////
 const listner = () => {console.log('clicked!')}
-$0.addEventListener('click', listner); // element¿¡ Å¬¸¯ÀÌ listner ÄÝ¹éÇÔ¼ö È£Ãâ 
-$0.removeListener('click', listener); // ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ X
+$0.addEventListener('click', listner); // elementì— í´ë¦­ì´ listner ì½œë°±í•¨ìˆ˜ í˜¸ì¶œ 
+$0.removeListener('click', listener); // ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ í˜¸ì¶œ X
 ```
 
-- ºê¶ó¿ìÀú¿¡¼­ ÀÌº¥Æ®¶ó´Â ¿ÀºêÁ§Æ®¸¦ ¸¸µé¾î¼­ ÀÌ ÀÌº¥Æ® ¿ÀºêÁ§Æ®¿¡´Â ¾î¶² ºÎºÐ¿¡¼­ Å¬¸¯ÀÌ µÇ¾ú´ÂÁö ¾î¶² ¿ä¼Ò°¡ Å¬¸¯ÀÌ µÇ¾ú´ÂÁö ´Ù¾çÇÑ Á¤º¸°¡ µé¾îÀÖ´Â ÀÌ ¿ÀºêÁ§Æ®¸¦ ¿ì¸®°¡ µî·ÏÇÑ ¿©±â ÄÝ¹éÇÔ¼ö¿¡ Àü´ÞÇØÁÖ°Ô µË´Ï´Ù.
-- ÀÌº¥Æ® ÇÚµé·¯¸¦ µî·ÏÇÒ ¼ö ÀÖ´Â ¿ä¼Ò¿¡´Â ÀÌº¥Æ® targetÀ» »ó¼ÓÇÏ´Â ¸ðµç ¿ä¼Ò¿¡´Â, ¸ðµç ¿¤¸®¸ÕÆ®´Â ³ëµå¸¦ »ó¼ÓÇÏ°í ³ëµå´Â ÀÌº¥Æ® Å¸°ÙÀ» »ó¼ÓÇÏ´Ï±ñ ¸ðµç ¿¤¸®¸ÕÆ®´Â Å¸°Ù
+- ë¸Œë¼ìš°ì €ì—ì„œ ì´ë²¤íŠ¸ë¼ëŠ” ì˜¤ë¸Œì íŠ¸ë¥¼ ë§Œë“¤ì–´ì„œ ì´ ì´ë²¤íŠ¸ ì˜¤ë¸Œì íŠ¸ì—ëŠ” ì–´ë–¤ ë¶€ë¶„ì—ì„œ í´ë¦­ì´ ë˜ì—ˆëŠ”ì§€ ì–´ë–¤ ìš”ì†Œê°€ í´ë¦­ì´ ë˜ì—ˆëŠ”ì§€ ë‹¤ì–‘í•œ ì •ë³´ê°€ ë“¤ì–´ìžˆëŠ” ì´ ì˜¤ë¸Œì íŠ¸ë¥¼ ìš°ë¦¬ê°€ ë“±ë¡í•œ ì—¬ê¸° ì½œë°±í•¨ìˆ˜ì— ì „ë‹¬í•´ì£¼ê²Œ ë©ë‹ˆë‹¤.
+- ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¥¼ ë“±ë¡í•  ìˆ˜ ìžˆëŠ” ìš”ì†Œì—ëŠ” ì´ë²¤íŠ¸ targetì„ ìƒì†í•˜ëŠ” ëª¨ë“  ìš”ì†Œì—ëŠ”, ëª¨ë“  ì—˜ë¦¬ë¨¼íŠ¸ëŠ” ë…¸ë“œë¥¼ ìƒì†í•˜ê³  ë…¸ë“œëŠ” ì´ë²¤íŠ¸ íƒ€ê²Ÿì„ ìƒì†í•˜ë‹ˆê¹ ëª¨ë“  ì—˜ë¦¬ë¨¼íŠ¸ëŠ” íƒ€ê²Ÿ
 
-## Âü°í
+## ì°¸ê³ 
 
-- ÀÌº¥Æ® °³³ä :
+- ì´ë²¤íŠ¸ ê°œë… :
 
 [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
-- ÀÌº¥Æ® Á¾·ù :
+- ì´ë²¤íŠ¸ ì¢…ë¥˜ :
 
 [Event reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 
 
-# 6.2 ÇÊ¼ö·Î ¾Ë¾Æ¾ß ÇÏ´Â Bubbling & capturing ±×¸®°í ²ÜÆÁ(½Ç½À8)
+# 6.2 í•„ìˆ˜ë¡œ ì•Œì•„ì•¼ í•˜ëŠ” Bubbling & capturing ê·¸ë¦¬ê³  ê¿€íŒ(ì‹¤ìŠµ8)
 
-## ½Ç½À
+## ì‹¤ìŠµ
 
 ```html
 <body>
@@ -74,27 +74,24 @@ $0.removeListener('click', listener); // ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ X
 </body>
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f941f110-af68-431c-b4e3-27326b0f41f6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f941f110-af68-431c-b4e3-27326b0f41f6/Untitled.png)
+- button(ì†ìž ìš”ì†Œ) í´ë¦­ ì‹œ outer(ë¶€ëª¨ ìš”ì†Œ), middle(ìžì‹ ìš”ì†Œ), button(ì†ìž ìš”ì†Œ)ì— ë“±ë¡ëœ ëª¨ë“  ì´ë²¤íŠ¸ê°€ í˜¸ì¶œëœë‹¤
+    - ìžì„¸í•œ ìˆœì„œ
+    - ë²„íŠ¼ í´ë¦­ â†’ ë¸Œë¼ìš°ì € ìº¡ì²˜ë§ ì‹œìž‘, ì¦‰ ë¶€ëª¨ ì»¨í…Œì´ë„ˆì—ì„œ ì—°ë¶„í™ìƒ‰, ê·¸ë¦¬ê³  ë²„íŠ¼ê¹Œì§€ ìº¡ì²˜ë§ì„ í†µí•´ ë‚´ë ¤ì˜¤ê²Œ ëœë‹¤. â†’ ë²„íŠ¼ì— ë“±ë¡ëœ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ í˜¸ì¶œ â†’ ì´ë²¤íŠ¸ ë²„ë¸”ë§ ì—…, ì¦‰ ìƒìœ„ì— ìžˆëŠ” ë¶€ëª¨ì˜ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¥¼ ì°¨ë¡€ëŒ€ë¡œ í˜¸ì¶œ
 
-- button(¼ÕÀÚ ¿ä¼Ò) Å¬¸¯ ½Ã outer(ºÎ¸ð ¿ä¼Ò), middle(ÀÚ½Ä ¿ä¼Ò), button(¼ÕÀÚ ¿ä¼Ò)¿¡ µî·ÏµÈ ¸ðµç ÀÌº¥Æ®°¡ È£ÃâµÈ´Ù
-    - ÀÚ¼¼ÇÑ ¼ø¼­
-    - ¹öÆ° Å¬¸¯ ¡æ ºê¶ó¿ìÀú Ä¸Ã³¸µ ½ÃÀÛ, Áï ºÎ¸ð ÄÁÅ×ÀÌ³Ê¿¡¼­ ¿¬ºÐÈ«»ö, ±×¸®°í ¹öÆ°±îÁö Ä¸Ã³¸µÀ» ÅëÇØ ³»·Á¿À°Ô µÈ´Ù. ¡æ ¹öÆ°¿¡ µî·ÏµÈ ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ ¡æ ÀÌº¥Æ® ¹öºí¸µ ¾÷, Áï »óÀ§¿¡ ÀÖ´Â ºÎ¸ðÀÇ ÀÌº¥Æ® ÇÚµé·¯¸¦ Â÷·Ê´ë·Î È£Ãâ
 
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dacb3c16-48b0-4275-819b-5ab6008761bd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dacb3c16-48b0-4275-819b-5ab6008761bd/Untitled.png)
+## ì£¼ì˜ì‚¬í•­
 
-## ÁÖÀÇ»çÇ×
-
-- ¹öÆ° ÅÂ±×ÀÇ ÀÌº¥Æ® ÇÚµé·¯¸¸ È£ÃâÇÏ°í ½ÍÀ» °æ¿ì¿¡! Áï »óÀ§ ºÎ¸ð·Î ¹öºí¸µ µÇ´Â °ÍÀ» ¸·°í ½ÍÀ» ¶§(stopPropagation)! °°Àº ÅÂ±×¿¡ µî·ÏµÈ ´Ù¸¥ ÀÌº¥Æ®¸¦ ¸·°í ½ÍÀ» ¶§(stopImmediatePropagation, ÀÌ ¸Þ¼Òµå°¡ È£ÃâµÈ ´ÙÀ½ ÀÌº¥Æ®¸¸ ¸·À½, ¸ÕÀú µî·ÏµÈ ÀÌº¥Æ®°¡ ÀÖÀ¸¸é ±× ÀÌº¥Æ®´Â ½ÇÇàµÊ)
-    - event.stopPropagation(); event.stopImmediatePropagation(); **ºñÃßºñÃß!! (¿Ö³ÄÇÏ¸é ºÎ¸ð ¿ä¼Ò¿¡ ´Ù¸¥ ÀÌº¥Æ®¸¦ Ã³¸®ÇØ¾ßÇÒ °æ¿ì°¡ ÀÖ±â ¶§¹®¿¡)**
+- ë²„íŠ¼ íƒœê·¸ì˜ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë§Œ í˜¸ì¶œí•˜ê³  ì‹¶ì„ ê²½ìš°ì—! ì¦‰ ìƒìœ„ ë¶€ëª¨ë¡œ ë²„ë¸”ë§ ë˜ëŠ” ê²ƒì„ ë§‰ê³  ì‹¶ì„ ë•Œ(stopPropagation)! ê°™ì€ íƒœê·¸ì— ë“±ë¡ëœ ë‹¤ë¥¸ ì´ë²¤íŠ¸ë¥¼ ë§‰ê³  ì‹¶ì„ ë•Œ(stopImmediatePropagation, ì´ ë©”ì†Œë“œê°€ í˜¸ì¶œëœ ë‹¤ìŒ ì´ë²¤íŠ¸ë§Œ ë§‰ìŒ, ë¨¼ì € ë“±ë¡ëœ ì´ë²¤íŠ¸ê°€ ìžˆìœ¼ë©´ ê·¸ ì´ë²¤íŠ¸ëŠ” ì‹¤í–‰ë¨)
+    - event.stopPropagation(); event.stopImmediatePropagation(); **ë¹„ì¶”ë¹„ì¶”!! (ì™œëƒí•˜ë©´ ë¶€ëª¨ ìš”ì†Œì— ë‹¤ë¥¸ ì´ë²¤íŠ¸ë¥¼ ì²˜ë¦¬í•´ì•¼í•  ê²½ìš°ê°€ ìžˆê¸° ë•Œë¬¸ì—)**
 
     ```jsx
-    /* ¹öÆ° Å¬¸¯ ½Ã ÄÜ¼Ö Ã¢ */
+    /* ë²„íŠ¼ í´ë¦­ ì‹œ ì½˜ì†” ì°½ */
     button: [object HTMLButtonElement], [object HTMLButtonElement]
     middle: [object HTMLDivElement], [object HTMLButtonElement]
     outer: [object HTMLDivElement], [object HTMLButtonElement]
     ```
 
-    - ÇØ°á ¹æ¹ý
+    - í•´ê²° ë°©ë²•
 
     ```html
     <body>
@@ -127,35 +124,35 @@ $0.removeListener('click', listener); // ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ X
     	</script>
     </body>
 
-    // ºÎ¸ð¿ä¼Ò´Â ÀÌº¥Æ® Å¸°ÙÀÌ Ä¿·±Æ® Å¸°Ù°ú ´Ù¸£±â ¶§¹®¿¡ ½ÇÇàµÇÁö ¾Ê´Â °ÍÀ» È®ÀÎÇÒ ¼ö ÀÖ´Ù
+    // ë¶€ëª¨ìš”ì†ŒëŠ” ì´ë²¤íŠ¸ íƒ€ê²Ÿì´ ì»¤ëŸ°íŠ¸ íƒ€ê²Ÿê³¼ ë‹¤ë¥´ê¸° ë•Œë¬¸ì— ì‹¤í–‰ë˜ì§€ ì•ŠëŠ” ê²ƒì„ í™•ì¸í•  ìˆ˜ ìžˆë‹¤
     ```
 
 
 
-# 6.3 ºê¶ó¿ìÀú¸¦ Ãë¼ÒÇÏ¶ó! À¯ÀÇÇÒ Á¡ ??
+# 6.3 ë¸Œë¼ìš°ì €ë¥¼ ì·¨ì†Œí•˜ë¼! ìœ ì˜í•  ì  ??
 
-## ¿¹Á¦
+## ì˜ˆì œ
 
-- **`event.preventDefault()` : ºê¶ó¿ìÀú¿¡¼­ ¹ß»ýÇÏ´Â ±âº» µ¿ÀÛÀ» ¸·´Â´Ù**
+- **`event.preventDefault()` : ë¸Œë¼ìš°ì €ì—ì„œ ë°œìƒí•˜ëŠ” ê¸°ë³¸ ë™ìž‘ì„ ë§‰ëŠ”ë‹¤**
 
 ```html
 <script>
 	const checkbox = document.querySelector('input');
 	checkbox.addEventListenr('click', event => {
 		console.log('checked');
-		event.preventDefault(); // ºê¶ó¿ìÀú ±âº» µ¿ÀÛÀ» ¸·À½ Áï, Ã¼Å©°¡ ¾ÈµÊ
+		event.preventDefault(); // ë¸Œë¼ìš°ì € ê¸°ë³¸ ë™ìž‘ì„ ë§‰ìŒ ì¦‰, ì²´í¬ê°€ ì•ˆë¨
 	});
 
 	document.addEventListenr('wheel', event => {
 		console.log('scrolling');
-		event.preventDefault(); // ¿¡·¯ ¹ß»ý, passive event listener¿¡¼­´Â preventDefault()¸¦ ÀÌ¿ëÇÒ ¼ö ¾øÀ½
+		event.preventDefault(); // ì—ëŸ¬ ë°œìƒ, passive event listenerì—ì„œëŠ” preventDefault()ë¥¼ ì´ìš©í•  ìˆ˜ ì—†ìŒ
 	});
 </script>
 ```
 
-- ÁÖÀÇ»çÇ×
-    - ½ºÅ©·Ñ¸µ ÀÌº¥Æ®¿Í °°ÀÌ ºü¸£°Ô ¹º°¡ µ¿ÀÛÇØ¾ßÇÏ´Â ÀÌº¥Æ®°¡ ¹ß»ýÇÒ ¶§ ºê¶ó¿ìÀú´Â preventDeafault ¿Í °°Àº ¸Þ¼Òµå¸¦ ¹«½ÃÇÑ´Ù. Áï ºê¶ó¿ìÀúÀÇ ±âº» °ªÀ» Ãë¼ÒÇÒ ¼ö ¾ø´Ù´Â ¾ê±â!!
-    - ¸¸¾à Ãë¼ÒÇÏ°í ½Í´Ù¸é
+- ì£¼ì˜ì‚¬í•­
+    - ìŠ¤í¬ë¡¤ë§ ì´ë²¤íŠ¸ì™€ ê°™ì´ ë¹ ë¥´ê²Œ ë­”ê°€ ë™ìž‘í•´ì•¼í•˜ëŠ” ì´ë²¤íŠ¸ê°€ ë°œìƒí•  ë•Œ ë¸Œë¼ìš°ì €ëŠ” preventDeafault ì™€ ê°™ì€ ë©”ì†Œë“œë¥¼ ë¬´ì‹œí•œë‹¤. ì¦‰ ë¸Œë¼ìš°ì €ì˜ ê¸°ë³¸ ê°’ì„ ì·¨ì†Œí•  ìˆ˜ ì—†ë‹¤ëŠ” ì–˜ê¸°!!
+    - ë§Œì•½ ì·¨ì†Œí•˜ê³  ì‹¶ë‹¤ë©´
 
         ```html
         <script>
@@ -168,13 +165,13 @@ $0.removeListener('click', listener); // ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ X
         </script>
         ```
 
-    - scroll ÀÌº¥Æ® Ã³·³ ±âº»ÀûÀ¸·Î passive °¡ true·Î ¼³Á¤µÈ ¾ÆÀÌ´Â passive ¸¦ false·Î ¼³Á¤ÇÏÁö ¾Ê´Â °ÍÀÌ ÁÁ´Ù
+    - scroll ì´ë²¤íŠ¸ ì²˜ëŸ¼ ê¸°ë³¸ì ìœ¼ë¡œ passive ê°€ trueë¡œ ì„¤ì •ëœ ì•„ì´ëŠ” passive ë¥¼ falseë¡œ ì„¤ì •í•˜ì§€ ì•ŠëŠ” ê²ƒì´ ì¢‹ë‹¤
 
 
 
-# 6.4 ¿ì¾ÆÇÑ ÀÌº¥Æ® À§ÀÓ (BAD vs GOOD)
+# 6.4 ìš°ì•„í•œ ì´ë²¤íŠ¸ ìœ„ìž„ (BAD vs GOOD)
 
-## ¿¹Á¦
+## ì˜ˆì œ
 
 ```html
 <head>
@@ -211,5 +208,5 @@ $0.removeListener('click', listener); // ÀÌº¥Æ® ÇÚµé·¯ È£Ãâ X
 </body>
 ```
 
-- ºÎ¸ð ÄÁÅ×ÀÌ³Ê´Â ÀÚ½Ä ¿ä¼Ò¿¡ ¾î¶² ÀÌº¥Æ®°¡ ¹ß»ýÇÏµç ¸ðµç ÀÌº¥Æ®¸¦ ´Ù µéÀ» ¼ö°¡ ÀÖ´Ù.
-- ºÎ¸ð ¾È ÀÚ½Ä ¿ä¼Ò¿¡°Ô °øÅëÀûÀ¸·Î ¹«¾ð°¡ Ã³¸®¸¦ ÇØ¾ß µÉ ¶§, ÀÏÀÏÀÌ ÀÌº¥Æ® ¸®½º³Ê¸¦ ÀÚ½Ä  Ãß°¡ÇÏ´Â °Íº¸´Ù ºÎ¸ð¿¡ µî·ÏÇÏ´Â °ÍÀÌ ÁÁ´Ù.
+- ë¶€ëª¨ ì»¨í…Œì´ë„ˆëŠ” ìžì‹ ìš”ì†Œì— ì–´ë–¤ ì´ë²¤íŠ¸ê°€ ë°œìƒí•˜ë“  ëª¨ë“  ì´ë²¤íŠ¸ë¥¼ ë‹¤ ë“¤ì„ ìˆ˜ê°€ ìžˆë‹¤.
+- ë¶€ëª¨ ì•ˆ ìžì‹ ìš”ì†Œì—ê²Œ ê³µí†µì ìœ¼ë¡œ ë¬´ì–¸ê°€ ì²˜ë¦¬ë¥¼ í•´ì•¼ ë  ë•Œ, ì¼ì¼ì´ ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆë¥¼ ìžì‹  ì¶”ê°€í•˜ëŠ” ê²ƒë³´ë‹¤ ë¶€ëª¨ì— ë“±ë¡í•˜ëŠ” ê²ƒì´ ì¢‹ë‹¤.
