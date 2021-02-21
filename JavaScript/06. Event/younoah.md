@@ -92,7 +92,7 @@ $0.dispatchEvent(new Event('click'))
 
 ## 캡처링과 버블링
 
-![bubbling&capturing](/Users/uno/Desktop/bubbling&capturing.png)
+![bubbling capturing](https://user-images.githubusercontent.com/41064875/108623457-9340cc80-7482-11eb-8933-34df07e419bf.png)
 
 ##### 캡처링
 
