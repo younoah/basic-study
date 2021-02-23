@@ -37,7 +37,13 @@ event.target.matches('.bug')
 // className or classList
 event.target.className === 'bug'
 event.target.classList.contains('bug')
+
+// 또 다른 예시
+if(target.tagName !== 'A') return
+if (!target.matches('a')) return
 ```
+
+
 
 
 
