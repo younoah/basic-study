@@ -1,221 +1,194 @@
-## ÇÁ·Î¼¼½º
+## í”„ë¡œì„¸ìŠ¤
 
-- ÄÄÇ»ÅÍ À§¿¡¼­, Áï ¿î¿µÃ¼Á¦ À§¿¡¼­ µ¶¸³ÀûÀ¸·Î ¸Þ¸ð¸®¿¡¼­ ½ÇÇàµÇ°í ÀÖ´Â ÇÁ·Î±×·¥
+- ì»´í“¨í„° ìœ„ì—ì„œ, ì¦‰ ìš´ì˜ì²´ì œ ìœ„ì—ì„œ ë…ë¦½ì ìœ¼ë¡œ ë©”ëª¨ë¦¬ì—ì„œ ì‹¤í–‰ë˜ê³  ìžˆëŠ” í”„ë¡œê·¸ëž¨
 
     ex)
 
-    - À½¾ÇÀç»ý ÇÁ·Î±×·¥ || »çÁøºä¾î ÇÁ·Î±×·¥ (ÀÌ·± ÇÁ·Î±×·¥µéÀº °¢°¢ÀÇ ÇÁ·Î¼¼½º¸¦ °¡Áü)
+    - ìŒì•…ìž¬ìƒ í”„ë¡œê·¸ëž¨ || ì‚¬ì§„ë·°ì–´ í”„ë¡œê·¸ëž¨ (ì´ëŸ° í”„ë¡œê·¸ëž¨ë“¤ì€ ê°ê°ì˜ í”„ë¡œì„¸ìŠ¤ë¥¼ ê°€ì§)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac59adde-7389-48ae-9639-fce4e3fe383b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac59adde-7389-48ae-9639-fce4e3fe383b/Untitled.png)
 
-- °¢°¢ÀÇ ÇÁ·Î¼¼½º´Â ¸Þ¸ð¸® À§¿¡¼­ ½ÇÇàµÇ¸ç µ¶¸³ÀûÀÌ´Ù.
-- °¢°¢ÀÇ ÇÁ·Î¼¼½º´Â Àú¸¶´Ù, resource(ÀÚ¿ø)µéÀÌ Á¤ÇØÁ® ÀÖ´Âµ¥¿ä, Áï ÇÁ·Î¼¼½º¸¶´Ù ÇÒ´çµÈ ¸Þ¸ð¸®³ª µ¥ÀÌÅÍµéÀÌ ÁöÁ¤µÇ¾îÁ® ÀÖ½À´Ï´Ù.
-- ÇÁ·Î¼¼½º ¾È¿¡´Â ÇÁ·Î±×·¥À» À§ÇØ¼­ ÀÛ¼ºµÈ ÄÚµå(ÇÁ·Î±×·¥À» ½ÇÇàÇÏ±â À§ÇÑ ÄÚµå)¿Í ±× ÇÁ·Î¼¼½º ¾È¿¡¼­ ÇÔ¼öµéÀÌ ¾î¤¨³Ê ¼ø¼­·Î ½ÇÇàµÇ¾î¾ß ÇÏ´ÂÁö, ÀÌÇÔ¼ö°¡ ³¡³ª¸é ¾îµð·Î µ¹¾Æ°¡¾ßÇÏ´ÂÁö ÀúÀåµÇ¾î ÀÖ´Â stack ÀÌ ÀÖ°í
-- ÈüÀº ¿ì¸®°¡ ¿ÀºêÁ§Æ®¸¦ »ý¼ºÇÏ°Å³ª µ¥ÀÌÅÍ¸¦ ¸¸µé ¶§, ±× µ¥ÀÌÅÍµéÀÌ ÀúÀåµÇ´Â °ø°£.
-- Èü¿¡´Â µ¿ÀûÀ¸·Î ÇÒ´çµÈ º¯¼öµéÀÌ ÀúÀåµÇ´À ¤¤¹Ý¸é¿¡
-- µ¥ÀÌÅÍ´Â Àü¿ªº¯¼ö³ª, ½ºÅÂÆ½ º¯¼ö°¡ ÇÒ´çµÊ.
+- ê°ê°ì˜ í”„ë¡œì„¸ìŠ¤ëŠ” ë©”ëª¨ë¦¬ ìœ„ì—ì„œ ì‹¤í–‰ë˜ë©° ë…ë¦½ì ì´ë‹¤.
+- ê°ê°ì˜ í”„ë¡œì„¸ìŠ¤ëŠ” ì €ë§ˆë‹¤, resource(ìžì›)ë“¤ì´ ì •í•´ì ¸ ìžˆëŠ”ë°ìš”, ì¦‰ í”„ë¡œì„¸ìŠ¤ë§ˆë‹¤ í• ë‹¹ëœ ë©”ëª¨ë¦¬ë‚˜ ë°ì´í„°ë“¤ì´ ì§€ì •ë˜ì–´ì ¸ ìžˆìŠµë‹ˆë‹¤.
+- í”„ë¡œì„¸ìŠ¤ ì•ˆì—ëŠ” í”„ë¡œê·¸ëž¨ì„ ìœ„í•´ì„œ ìž‘ì„±ëœ ì½”ë“œ(í”„ë¡œê·¸ëž¨ì„ ì‹¤í–‰í•˜ê¸° ìœ„í•œ ì½”ë“œ)ì™€ ê·¸ í”„ë¡œì„¸ìŠ¤ ì•ˆì—ì„œ í•¨ìˆ˜ë“¤ì´ ì–´ã„¸ë„ˆ ìˆœì„œë¡œ ì‹¤í–‰ë˜ì–´ì•¼ í•˜ëŠ”ì§€, ì´í•¨ìˆ˜ê°€ ëë‚˜ë©´ ì–´ë””ë¡œ ëŒì•„ê°€ì•¼í•˜ëŠ”ì§€ ì €ìž¥ë˜ì–´ ìžˆëŠ” stack ì´ ìžˆê³ 
+- íž™ì€ ìš°ë¦¬ê°€ ì˜¤ë¸Œì íŠ¸ë¥¼ ìƒì„±í•˜ê±°ë‚˜ ë°ì´í„°ë¥¼ ë§Œë“¤ ë•Œ, ê·¸ ë°ì´í„°ë“¤ì´ ì €ìž¥ë˜ëŠ” ê³µê°„.
+- íž™ì—ëŠ” ë™ì ìœ¼ë¡œ í• ë‹¹ëœ ë³€ìˆ˜ë“¤ì´ ì €ìž¥ë˜ëŠ ã„´ë°˜ë©´ì—
+- ë°ì´í„°ëŠ” ì „ì—­ë³€ìˆ˜ë‚˜, ìŠ¤íƒœí‹± ë³€ìˆ˜ê°€ í• ë‹¹ë¨.
 - 
-- Áï, °¢°¢ÀÇ ÇÁ·Î¼¼½º´Â ÀÚ±âµé¿¡°Ô ÇÊ¿äÇÑ ÄÚµå, µ¿ÀÛÇÏ°í ÀÖ´Â ¼ø¼­¸¦ ±â¾ïÇÏ´Â ½ºÅÃ, µ¥ÀÌÅÍµéÀÌ µé¾îÀÖ´Â Èü°ú µ¥ÀÌÅÍ. µéÀÌ µé¾îÁ® ÀÖ´Ù.
+- ì¦‰, ê°ê°ì˜ í”„ë¡œì„¸ìŠ¤ëŠ” ìžê¸°ë“¤ì—ê²Œ í•„ìš”í•œ ì½”ë“œ, ë™ìž‘í•˜ê³  ìžˆëŠ” ìˆœì„œë¥¼ ê¸°ì–µí•˜ëŠ” ìŠ¤íƒ, ë°ì´í„°ë“¤ì´ ë“¤ì–´ìžˆëŠ” íž™ê³¼ ë°ì´í„°. ë“¤ì´ ë“¤ì–´ì ¸ ìžˆë‹¤.
 
-## ¾²·¹µå
+## ì“°ë ˆë“œ
 
-- ¾²·¹µå´Â ÇÑ ÇÁ·Î¼¼½º ¾È¿¡¼­ ¿©·¯°³°¡ µ¿ÀÛÇÒ ¼ö ÀÖ´Ù.
-- ¾²·¹µå´Â °¢°¢ Àú¸¶´Ù ÇØ¾ßµÇ´Â ¾÷¹«¸¦ ¹èÁ¤¹Þ´Â´Ù. (=ÀÏ²Û ¤»¤»¤»¤»)
-- ¾²·¹µå´Â ÀÚ±âµé¸¸ÀÇ ¼öÇàÇØ¾ßÇÏ´Â ÇÔ¼öÀÇ È£ÃâÀ» ±â¾ïÇØ¾ß ÇÏ±â ¶§¹®¿¡ ¾²·¹µå¸¶´Ù ½ºÅÃÀÌ ÇÒ´çµÇ¾îÁ® ÀÖ´Ù.
-- ÇÏÁö¸¸ ÀÌ ÇÁ·Î¼¼½º ¾È¿¡¼­ µ¿ÀÛÇÏ´Â ÀÏ²Ûµé Áï ¾²·¹µåµéÀº °á±¹Àº ÇÑ ÇÁ·Î±×·¥À» À§ÇØ¼­ ÀÏÇØ¾ß µÇ¹Ç·Î ÇÁ·Î¼¼½º¿¡ ÁöÁ¤µÈ ÄÚµå¿Í, Èü, µ¥ÀÌÅÍ¿¡ °øÅëÀûÀ¸·Î Á¢±ÙÇØ¼­ °øÅëÀûÀ¸·Î ¾÷µ¥ÀÌÆ®°¡ °¡´ÉÇÏ°Ô µÈ´Ù.
+- ì“°ë ˆë“œëŠ” í•œ í”„ë¡œì„¸ìŠ¤ ì•ˆì—ì„œ ì—¬ëŸ¬ê°œê°€ ë™ìž‘í•  ìˆ˜ ìžˆë‹¤.
+- ì“°ë ˆë“œëŠ” ê°ê° ì €ë§ˆë‹¤ í•´ì•¼ë˜ëŠ” ì—…ë¬´ë¥¼ ë°°ì •ë°›ëŠ”ë‹¤. (=ì¼ê¾¼ ã…‹ã…‹ã…‹ã…‹)
+- ì“°ë ˆë“œëŠ” ìžê¸°ë“¤ë§Œì˜ ìˆ˜í–‰í•´ì•¼í•˜ëŠ” í•¨ìˆ˜ì˜ í˜¸ì¶œì„ ê¸°ì–µí•´ì•¼ í•˜ê¸° ë•Œë¬¸ì— ì“°ë ˆë“œë§ˆë‹¤ ìŠ¤íƒì´ í• ë‹¹ë˜ì–´ì ¸ ìžˆë‹¤.
+- í•˜ì§€ë§Œ ì´ í”„ë¡œì„¸ìŠ¤ ì•ˆì—ì„œ ë™ìž‘í•˜ëŠ” ì¼ê¾¼ë“¤ ì¦‰ ì“°ë ˆë“œë“¤ì€ ê²°êµ­ì€ í•œ í”„ë¡œê·¸ëž¨ì„ ìœ„í•´ì„œ ì¼í•´ì•¼ ë˜ë¯€ë¡œ í”„ë¡œì„¸ìŠ¤ì— ì§€ì •ëœ ì½”ë“œì™€, íž™, ë°ì´í„°ì— ê³µí†µì ìœ¼ë¡œ ì ‘ê·¼í•´ì„œ ê³µí†µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ê°€ ê°€ëŠ¥í•˜ê²Œ ëœë‹¤.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab50b462-763f-42f5-b39b-52ae7541b442/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab50b462-763f-42f5-b39b-52ae7541b442/Untitled.png)
-
-ex)
-
-- ÇÁ·Î±×·¥ Áß¿¡ À½¾ÇÀ» µéÀ¸¸é¼­ »çÁøÀ» ÆíÁýÇÒ ¼ö ÀÖ´Â ¾îÇÃ¸®ÄÉÀÌ¼ÇÀÌ ÀÖ´Ù¸é °¢°¢ ¾²·¹µå,
-    - Áï À½¾ÇÀ» Àç»ýÇÏ´Â ¾²·¹µå ÇÏ³ª¿Í
-    - »çÁøÀ» ÆíÁýÇÒ ¼ö ÀÕ´Â ¾²·¹µå.
-    - À½¾ÇÀÇ µ¥ÀÌÅÍ¸¦ ¼­¹ö¿¡¼­ºÎÅÍ ¹Þ¾Æ¿Í¼­ Ã³¸®ÇÏ´Â ¾²·¹µå
-- À§¿Í °°ÀÌ ÇÑ ÇÁ·Î±×·¥ ¾È¿¡ ¿©·¯ µ¿ÀÛÀÌ µ¿½Ã´Ù¹ßÀûÀ¸·Î ¹ß»ýÇÒ ¼ö ÀÖ±â ¶§¹®¿¡ ÀÌ ÇÁ·Î¼¼½º°¡ Á¶±Ý ´õ È¿À²ÀûÀ¸·Î ÀÏÇÒ ¼ö ÀÖµµ·Ï µµ¿òÀ» ÁØ´Ù.
-- ¸¸¾à¿¡ ÇÁ·Î¼¼½º°¡ ÇÏ³ªÀÇ ÀÏ¸¸ ÇÒ ¼ö ÀÖ´Ù¸é.... À½¾ÇÀ» µéÀ¸¸é¼­ »çÁø ÆíÁýÀº ¸øÇÏ°ÚÁö...
-- ÀÌ·¸°Ô ¾²·¹µåµéÀÌ ¿©·¯°³ µé¾îÀÖ±â ¶§¹®¿¡ ´Ù¾çÇÑ ÀÏµéÀ» µ¿½Ã¿¡ ÇÒ ¼ö ÀÖ´Â °ÅÀÓ ¤·¤·
-
-**Áß¿ä**
-
-- ¾²·¹µå´Â ¾îµð¿¡¼­ºÎÅÍ ¾îµð±îÁö ÀÏÀ» Çß°í ±× ´ÙÀ½¿£ ¾îµð·Î °¡¾ßµÇ´ÂÁö, ÀÏÀÇ Èå¸§À» ±â¾ïÇÒ ¼ö ÀÖ´Â °íÀ¯ÀÇ ½ºÅÃÀÌ ÁöÁ¤µÇ¾îÁ® ÀÖÁö¸¸,
-- µ¥ÀÌÅÍ³ª ÄÚµå³ª Èü °°Àº °øÅëÀûÀÎ µ¥ÀÌÅÍ ¸®¼Ò½º´Â ÇÁ·Î¼¼½º¿¡ ¾È¿¡ ÀÖ±â ¶§¹®¿¡ ¾²·¹µåµéÀº ÀÌ ÇÁ·Î¼¼½º¿¡ °øÅëÀûÀ¸·Î ÇÒ´çµÈ ¸®¼Ò½º¿¡ µ¿½Ã´Ù¹ßÀûÀ¸·Î Á¢¼ÓÇØ¼­ µ¿½Ã´Ù¹ßÀûÀ¸·Î ¾÷µ¥ÀÌÆ® ÇØ¾ßµÈ´Ù
-- ¸ÖÆ¼¾²·¹µùÀ» Àß ¸øÇÏ¸é °øÅëÀûÀ¸·Î ¾÷µ¥ÀÌÆ® ÇÏ¸é¼­ ÀÌ ¼ø¼­°¡ ¸ÂÁö ¾Ê°Å³ª ¹ß»ýÇÏ´Â ¹®Á¦°¡ ÀÖ¾î¼­ ¸ÖÆ¼¾²·¹µù ÇÁ·Î±×·¡¹ÖÀÌ Á¶±Ý ±î´Ù·Ó´Ù.
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65867e07-71b2-4861-bf71-3da213abd5d0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65867e07-71b2-4861-bf71-3da213abd5d0/Untitled.png)
-
-## °á·Ð
-
-- ÇÁ·Î¼¼½º´Â ÇÁ·Î±×·¡¹ÖÀ» µ¿ÀÛÇÏ´Â ÃÖ°íÀÇ ´ÜÀ§
-- ¾²·¹µå´Â ÇÁ·Î±×·¥ ¾È¿¡¼­ µ¿½Ã¿¡ ¿©·¯ °³°¡ ¼öÇàµÉ ¼ö ÀÖ´Â ÀÛÀº ÀÏ²Û ´ÜÀ§
-
-- ¸ÖÆ¼¾²·¹µùÀÌ¶ó´Â °ÍÀº
-    - ÇÑ ÇÁ·Î¼¼½º ¾È¿¡¼­ ¿©·¯°¡Áö ¾²·¹µå°¡ µ¿½Ã´Ù¹ßÀûÀ¸·Î ¹ß»ýÇÏ´Â °ÍÀ» ¸»ÇÑ´Ù
-    - ±×¸®°í ÀÌ°É °¡Áö°í ÀÖÀ¸¸é µ¿½ÃÀûÀ¸·Î ÀÏÀ» ¼öÇàÇÒ ¼ö ÀÖ±â ¶§¹®¿¡
-    - È¿À²ÀûÀ¸·Î ÇÁ·Î±×·¡¹ÖÀÌ µ¿ÀÛ
-
-- ÀÚ¹Ù¶ó´Â ¾ð¾î´Â ¾ð¾îÀÚÃ¼¿¡¼­ ¸ÖÆ¼¾²·¹µùÀÌ Áö¿øµÊ
-    - À§ ¸»Àº ¿ì¸®°¡ ÇÁ·Î±×·¡¹ÖÀ» Â© ¶§ »ç¿ëÀÚ°¡ ÀÌ µ¥ÀÌÅÍ¸¦ º¸°í ÀÖ´Â µ¿¾È
-        - ¼­¹ö¿¡¼­ µ¥ÀÌÅÍ¸¦ ¹Þ¾Æ¿À´Â °ÍÀº ¾²·¹µå A°¡,
-        - ´Ù¸¥ ÀÏÀº ¾²·¹µå B¿¡¼­ ÇØ¾ßÁö
-    - ¶ó°í °¢°¢ ÁöÁ¤ÇØ¼­ ÇÁ·Î±×·¡¹ÖÀ» Â© ¼ö ÀÖ´Ù
-- ÀÚ¹Ù·Î ¸ÖÆ¼¾²·¹µùÀ» ±¸ÇöÇÏ·Á¸é Á¶±Ý ¹è¿ö¾ß µÇ´Â °ÍµéÀÌ ¸¹´Ù.
-
-- ÀÚ¹Ù½ºÅ©¸³Æ®´Â single threaded language. ÀÌ ¾ð¾î ÀÚÃ¼´Â ¸ÖÆ¼ ¾²·¹µùÀÌ ¾ø´Ù.
-    - ±×·¡¼­ ÀÚ¹Ù¿¡¼­ Çß´ø °ÍÃ³·³,
-        - ÀÌ ÀÏÀº ¹é±×¶ó¿îµå ¾²·¹µå¿¡¼­
-        - ÀÌ ÀÏÀº ¾²·¹µå A¿¡¼­
-        - Àú ÀÏÀº ¾²·¹µå B¿¡¼­
-    - °¢°¢ ÁöÁ¤ÇÒ ¼ö ÀÖ´Â ¹æ¹ýÀÌ ¾øÀ½
-
-- ÀÚ¹Ù½ºÅ©¸³Æ® ¾ð¾î ÀÚÃ¼´Â ¸ÖÆ¼¾²·¹µùÀ» ÇÒ ¼ö ÀÖ´Â ¹æ¹ýÀº ¾øÁö¸¸
-- **ÀÚ¹Ù½ºÅ©¸³Æ®°¡ µ¿ÀÛÇÏ°í ÀÖ´Â ºê¶ó¿ìÀú À§¿¡´Â Áï, ºê¶ó¿ìÀú¶ó´Â ÇÁ·Î±×·¥ ¾È¿¡¼­´Â ¿©·¯°¡Áö ¾²·¹µå°¡ µé¾î ÀÖÀ½**
-- ±×·¡¼­ ¿ì¸®°¡ ºê¶ó¿ìÀú, Áï web apis¸¦ ÀÌ¿ëÇÏ°Ô µÇ¸é ¸ÖÆ¼¾²·¹µùÀÌ °¡´ÉÇÏ´Ù.
-- ÀÚ¹Ù½ºÅ©¸³Æ®°¡ µ¿ÀÛÇÏ´Â ÀÌ ·±Å¸ÀÓ È¯°æ¿¡¼­ Áï, **ÀÚ¹Ù½ºÅ©¸³Æ®°¡ µ¿ÀÛÇÏ°í ÀÖ´Â ½ÇÇàÈ¯°æ**¿¡¼­´Â ´Ù¾çÇÑ ¹æ½ÄÀ» ÀÌ¿ëÇØ¼­ ¸ÖÆ¼¾²·¹µù °°Àº È¿°ú¸¦ ¾òÀ» ¼ö ÀÖ´Ù.
-- ÀÚ¹Ù½ºÅ©¸³Æ®°¡ ½ÇÇàµÇ´Â ÀÌ ·±Å¸ÀÓ È¯°æ = ÀÚ¹Ù½ºÅ©¸³Æ®°¡ ½ÇÇàµÇ´Â ½ÇÇà È¯°æ À§¿¡¼­´Â ¸ÖÆ¼¾²·¹µù »Ó¸¸ ¾Æ´Ï¶ó ÀÌº¥Æ® ·çÇÁ¸¦ ÀÌ¿ëÇØ¼­ Á¶±Ý ´õ ´Ù¾çÇÑ µ¿ÀÛÀ» ½ÇÇàÇÒ ¼ö ÀÖ´Ù.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04c48b97-e531-4f2c-b861-550944173b45/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04c48b97-e531-4f2c-b861-550944173b45/Untitled.png)
-
-## ÀÚ¹Ù½ºÅ©¸³Æ® ·±Å¸ÀÓ È¯°æ
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12ba9282-4289-4e62-9988-22b1b115e5de/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12ba9282-4289-4e62-9988-22b1b115e5de/Untitled.png)
-
-### »óÈ²
-
-- À¥¾îÇÃ¸®ÄÉÀÌ¼ÇÀÌ ºê¶ó¿ìÀú À§¿¡ ¿Ã¶ó°¡´Â ¼ø°£
-- ÀÌ ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀÌ ¿ì¸®°¡ ÀÛ¼ºÇÑ ¼Ò½ºÄÚµå¸¦ ÇÑ ÁÙ ÇÑÁÙ ÇØ¼®ÇÏ°í ºÐ¼®ÇÏ°í ½ÇÇà
-- ÀÌ °úÁ¤ÀÌ ¾î¶»°Ô ÁøÇàµÇ´Â °É±î???
-
-### °úÁ¤
-
-- ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀº Å©°Ô ¸Þ¸ð¸® Èü°ú ÄÝ½ºÅÃÀ¸·Î ³ª´²Á® ÀÖ´Ù
-- **¸Þ¸ð¸® Èü**Àº
-    - ¿ì¸®°¡ µ¥ÀÌÅÍ¸¦ ¸¸µé ¶§, Áï, º¯¼ö¸¦ ¼±¾ðÇØ¼­ ¿ÀºêÁ§Æ®¸¦ ÇÒ´çÇÏ°Å³ª ¹®ÀÚ³ª ¼ýÀÚ¸¦ ÇÒ´çÇÏ°Ô µÇ¸é
-    - ±× µ¥ÀÌÅÍµéÀº ÀüºÎ ´Ù ¸Þ¸ð¸® Èü¿¡ ÀúÀåµÈ´Ù.
-    - ±×·±µ¥ ¸Þ¸ð¸® ÈüÀº ±¸Á¶ÀûÀ¸·Î Á¤¸®µÈ ÀÚ·á±¸Á¶°¡ ¾Æ´Ï¶ó ÀÌ·¸°Ô ÀÚ·áµéÀÌ ¿©±âÀú±â¿¡ ÀÌ·¸°Ô ¾Æ¹«°÷¿¡¼­³ª ÀúÀåµÇ¾îÁ® ÀÖ´Ù.
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e92ca9a-9d41-4ec8-9ffd-58678c6fbb1a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e92ca9a-9d41-4ec8-9ffd-58678c6fbb1a/Untitled.png)
-
-    - ÀÌ·¸°Ô ÇÒ´çµÈ µ¥ÀÌÅÍµéÀÌ °á·ÐÀûÀ¸·Î ¸Þ¸ð¸® Èü¿¡ µé¾î°¡°Ô µÊ
-
-- **ÄÝ½ºÅÃ**Àº
-    - ¿ì¸®°¡ ½ÇÇàÇÏ´Â ÇÔ¼ö¿¡ µû¶ó¼­ Â÷°îÂ÷°î ½×¾Æ³õÀ½
-    - ÀÌ·¸°Ô ¸ÞÀÎ ÇÔ¼ö¿¡¼­ first() ÇÔ¼ö¸¦ È£ÃâÇÏ°í seconnd()¸¦ È£ÃâÇÏ¸é ÀÌ ÄÝ½ºÅÃ¿¡ Â÷°îÂ÷°î ½×ÀÌ°Ô µÊ
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/766ad67e-0b2a-4d3a-840f-c8c88096150d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/766ad67e-0b2a-4d3a-840f-c8c88096150d/Untitled.png)
-
-**!Àá±ñ**
-
-- ½ºÅÃÀº LIFO(Last in First out) ¶ó°íµµ ºÒ¸®´Âµ¥ Á¦ÀÏ ³ªÁß¿¡ µé¾î¿Â °Í¿¡ Á¦ÀÏ ¸ÕÀú ³ª°£´Ù
-
-    ex)
-
-    - º¸Åë ½ºÅÃ¿¡´Â push¿Í pop peek°°Àº APIµéÀÌ ÀÖ´Âµ¥
-    - push(1)ÀÌ¶ó°í ÇÏ°Ô µÇ¸é 1ÀÌ¶ó´Â µ¥ÀÌÅÍ°¡ ½ºÅÃ¿¡ µé¾î°¡°Ô µÇ°í push(2)ÇÏ°Ô µÇ¸é 1À§¿¡ 2¶ó´Â µ¥ÀÌÅÍ°¡ ½×ÀÌ°Ô µÇ´Âµ¥, ÀÌ ¶§ pop()À» È£ÃâÇÏ°Ô µÇ¸é , (popÀº ÇÏ³ª¸¦ ½ï »©³ª°¡´Â °Çµ¥) ´ç¿¬È÷ Á¦ÀÏ ³ªÁß¿¡ µé¾î¿Â Á¦ÀÏ ´Ê°Ô µé¾î¿Â ¼ýÀÚ 2°¡ ³ª°¡°Ô µÈ´Ù.
-- ÀÌ·¸°Ô ½ºÅÃÀº Á¦ÀÏ ³ªÁß¿¡ µé¾î¿Â °ÍÀÌ Á¦ÀÏ ¸ÕÀú ³ª°¡´Â ÀÚ·á±¸Á¶¸¦ °¡Áö°í ÀÖ´Ù.
-
-- **ÄÝ½ºÅÃ µ¿ÀÛ °úÁ¤**
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6108e0c-1c35-4a45-a32c-94c67b6cfe72/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6108e0c-1c35-4a45-a32c-94c67b6cfe72/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc778f26-3027-4155-95bd-60ae1f930a67/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc778f26-3027-4155-95bd-60ae1f930a67/Untitled.png)
-
-- ÄÝ½ºÅÃÀº ¾îµð·Î µ¹¾Æ¿Í¾ß µÇ´ÂÁö¿¡ °üÇÑ Á¤º¸µµ Æ÷ÇÔ
-- ÄÝ½ºÅÃÀº ÇÔ¼öµéÀÌ È£ÃâÇÏ´Â ¼ø¼­¸¦ ±â¾ïÇß´Ù°¡ ÇÔ¼ö°¡ ³¡³ª¸é ¿ø·¡ ÀÖ´ø ÀÚ¸®·Î µ¹¾Æ°¡±â À§ÇØ¼­ ¾²ÀÌ´Â ÀÚ·á±¸Á¶Áß ÇÏ³ªÀÌ´Ù.
-- ¸ðµç ÇÁ·Î¼¼½º¿Í ¾²·¹µå ¾È¿¡´Â °¢°¢ Àú¸¶´ÙÀÇ ÄÝ½ºÅÃÀÌ µé¾î°¡ ÀÖ´Ù.
-- ¿Ö³Ä ÀÏÀ» ¼öÇàÇÒ ¶§ ¾îµð¿¡¼­ ¿Ô°í ¾îµð·Î ´Ù½Ã °¡¾ßµÇ´ÂÁö Á¤º¸¸¦ ±â¾ïÇØ¾ßÇÏ±â ¶§¹®ÀÌ´Ù.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0f6b327-8404-4003-acbb-8b84d59943cc/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0f6b327-8404-4003-acbb-8b84d59943cc/Untitled.png)
-
-- À§¿Í °°Àº °æ¿ì´Â ÄÝ½ºÅÃÀÌ ¾î¶»°Ô ½×ÀÏ±î?
-- endless()°¡ °è¼Ó ½×ÀÌ°Ô µÈ´Ù....
-
-    ÄÜ¼ÖÃ¢¿¡¼­ maximun call stack size exceed ¶ó´Â ¿À·ù¸¦ È®ÀÎÇÒ ¼ö ÀÖ´Ù. 
-
-- **ÇÁ·Î¼¼½º¸¶´Ù ½ºÅÃ¸¶´Ù ÁöÁ¤µÈ ÄÝ½ºÅÃ »çÀÌÁî°¡ ÀÖ´Ù.**
-- ÇÔ¼ö¾È¿¡¼­ ÀÚ±â ÀÚ½ÅÀ» ºÎ¸£´Â ÇÔ¼ö¸¦ Àç±ÍÇÔ¼ö¶ó°í ÇÏ´Âµ¥
-- ÀÌ Àç±ÍÇÔ¼ö°¡ À¯¿ëÇÏÁö¸¸ Àß¸ø¾²¸é ÁöÁ¤µÈ ÄÝ½ºÅÃ »çÀÌÁî¸¦ ÃÊ°úÇÒ ¼ö ÀÖ¾î¾ß µÇ¼­ Á¶½ÉÇØ¼­ ½á¾ß ÇÑ´Ù.
-
-## °á·Ð
-
-¿ì¸®°¡ ÀÛ¼ºÇÑ À¥¾îÇÃ¸®ÄÉÀÌ¼ÇÀÌ ºê¶ó¿ìÀú À§¿¡ ¿Ã¶ó °¡°Ô µÇ¸é ¿ì¸®ÀÇ ¼Ò½ºÄÚµå¸¦ ÀÌ ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀÌ ¾î¶»°Ô ÇØ¼®ÇÏ°í ¾î¶² ±¸Á¶·Î º¸°üÇÏ´Â Áö ¾Ë¾Æº¸¾ÒÀ½
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d84f64-eb5a-4a82-a34a-a3e883e2135c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d84f64-eb5a-4a82-a34a-a3e883e2135c/Untitled.png)
-
-- Web APIs´Â ºê¶ó¿ìÀú¿¡¼­ Á¦°øÇÏ´Â apiÀÌ±â ¶§¹®¿¡ **ºê¶ó¿ìÀúÀÇ ¸ÖÆ¼¾²·¹µùÀ» ÀÌ¿ëÇØ¼­ ´Ù¾çÇÑ ÀÏµéÀ» µ¿½Ã¿¡ ½ÇÇà**ÇÒ ¼ö °¡ ÀÖ´Ù.
-
-    ex)
-
-    - ´ëÇ¥ÀûÀ¸·Î fetch¸¦ ÀÌ¿ëÇØ¼­ ¹é¾Øµå¿¡¼­ µ¥ÀÌÅÍ¸¦ ¹Þ¾Æ ¿Â´ÙµçÁö
-    - setTimeoutÀ» ÀÌ¿ëÇØ¼­ ÀÏÁ¤ ±â°£ÀÇ ½Ã°£ÀÌ Áö³­ ´ÙÀ½¿¡ ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹éÇÔ¼ö¸¦ ½ÇÇà
-
-## À¥ API¿Í ÀÚ¹Ù½ºÅ©¸³Æ® ¿£Áø ¼ÒÅë °úÁ¤
 
 ex)
 
-¿ì¸®°¡ second()¶ó´Â ÇÔ¼ö ¾È¿¡¼­ setTimeoutÀ» È£ÃâÇß´Ù°í °¡Á¤ÇØº¸ÀÚ. 3ÃÊ ÀÖ´Ù°¡ ¿ì¸®°¡ ÄÝ¹éÇÔ¼ö¸¦ µ¿¸¤ÇØ¼­ ÄÜ¼ÖÃ¢¿¡ 'hello'¸¦ Ãâ·ÂÇÑ´Ù°í °¡Á¤ÇØº¸ÀÚ.
+- í”„ë¡œê·¸ëž¨ ì¤‘ì— ìŒì•…ì„ ë“¤ìœ¼ë©´ì„œ ì‚¬ì§„ì„ íŽ¸ì§‘í•  ìˆ˜ ìžˆëŠ” ì–´í”Œë¦¬ì¼€ì´ì…˜ì´ ìžˆë‹¤ë©´ ê°ê° ì“°ë ˆë“œ,
+    - ì¦‰ ìŒì•…ì„ ìž¬ìƒí•˜ëŠ” ì“°ë ˆë“œ í•˜ë‚˜ì™€
+    - ì‚¬ì§„ì„ íŽ¸ì§‘í•  ìˆ˜ ìž‡ëŠ” ì“°ë ˆë“œ.
+    - ìŒì•…ì˜ ë°ì´í„°ë¥¼ ì„œë²„ì—ì„œë¶€í„° ë°›ì•„ì™€ì„œ ì²˜ë¦¬í•˜ëŠ” ì“°ë ˆë“œ
+- ìœ„ì™€ ê°™ì´ í•œ í”„ë¡œê·¸ëž¨ ì•ˆì— ì—¬ëŸ¬ ë™ìž‘ì´ ë™ì‹œë‹¤ë°œì ìœ¼ë¡œ ë°œìƒí•  ìˆ˜ ìžˆê¸° ë•Œë¬¸ì— ì´ í”„ë¡œì„¸ìŠ¤ê°€ ì¡°ê¸ˆ ë” íš¨ìœ¨ì ìœ¼ë¡œ ì¼í•  ìˆ˜ ìžˆë„ë¡ ë„ì›€ì„ ì¤€ë‹¤.
+- ë§Œì•½ì— í”„ë¡œì„¸ìŠ¤ê°€ í•˜ë‚˜ì˜ ì¼ë§Œ í•  ìˆ˜ ìžˆë‹¤ë©´.... ìŒì•…ì„ ë“¤ìœ¼ë©´ì„œ ì‚¬ì§„ íŽ¸ì§‘ì€ ëª»í•˜ê² ì§€...
+- ì´ë ‡ê²Œ ì“°ë ˆë“œë“¤ì´ ì—¬ëŸ¬ê°œ ë“¤ì–´ìžˆê¸° ë•Œë¬¸ì— ë‹¤ì–‘í•œ ì¼ë“¤ì„ ë™ì‹œì— í•  ìˆ˜ ìžˆëŠ” ê±°ìž„ ã…‡ã…‡
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d940720-f1d3-45ae-8369-429ffff01fd3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d940720-f1d3-45ae-8369-429ffff01fd3/Untitled.png)
+**ì¤‘ìš”**
 
-- setTimeout()À» È£ÃâÇÏ´Â ¼ø°£ ÄÝ¹é¿¡¼­ Áö¿öÁö°í À¥ api´Â Å¸ÀÌ¸Ó¸¦ ½ÃÀÛÇÏ°Ô µÈ´Ù
-- Å¸ÀÌ¸Ó°¡ ½ÇÇàµÇ°í ÀÖ´Â µ¿¾È¿¡µµ, Áï Å¸ÀÌ¸Ó¿Í ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀº º´·ÄÀûÀ¸·Î ½ÇÇàÀÌ µÇ°í ÀÖ´Ù°¡ ÁöÁ¤µÈ ½Ã°£ÀÌ ³¡³ª¸é À¥ api´Â ÅÂ½ºÅ© Å¥¿¡ "¾ß! Å¸ÀÌ¸Ó ³¡³µ¾î" ¿©±â ³×°¡ µî·ÏÇÑ ÄÝ¹éÀÌ¾ß. ÀÌ ÄÝ¹é ÀÚÃ¼¸¦ ÅÂ½ºÅ© Å¥¿¡ Áý¾î ³Ö½À´Ï´Ù.
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/201bcc9e-6a51-4a79-8ff0-14a6b1ac9c87/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/201bcc9e-6a51-4a79-8ff0-14a6b1ac9c87/Untitled.png)
-
-    ### ¿©±â¼­ ÅÂ½ºÅ© Å¥¶õ ¹«¾ùÀÏ±î?
-
-    - Å¥µµ ÀÚ·á±¸Á¶ Áß ÇÏ³ª·Î
-        - FIFO¶ó°í ¾Ë·ÁÁ® ÀÖ´Âµ¥(First In First Out) Ã³À½¿¡ µé¾î¿Â°ÍÀÌ Ã³À½À¸·Î ³ª°£´Ù. ½ºÅÃ°ú ¹Ý´ëµÇ³×¿°..
-        - Å¥ÀÇ ´ëÇ¥ÀûÀÎ api·Î´Â add ¿Í remove°¡ ÀÖÀ½
-
-- ÀÌ·¸°Ô ÁöÁ¤µÈ setTimeout() ÀÌ ³¡³ª°Ô µÇ¸é, setTimeoutÀ» È£ÃâÇÒ ¶§ µî·ÏÇÑ ÄÝ¹éÀÌ ÅÂ½ºÅ© Å¥¿¡ µé¾î¿À°ÔµÈ´Ù.
-- À¥ apis´Â ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹éÇÔ¼ö¸¦ ¿øÇÏ´Â ¶§¿¡ ÁöÁ¤µÈ ½Ã°£¿¡ ¾Ë¾Æ¼­ ÅÂ½ºÅ© Å¥¿¡ ³Ö¾îÁØ´Ù. ±×·³ ÅÂ½ºÅ© Å¥¿¡ µé¾îÀÕ´Â Àú ÄÝ¹éÀº ¾ðÁ¦ ½ÇÇàµÉ±î?
-- ÀÌ·¸°Ô **ÅÂ½ºÅ¥ Å¥¿Í ÄÝ½ºÅÃÀ» °üÂûÇÏ´Â ¾ÆÀÌ°¡ ÇÏ³ª ÀÖ´Âµ¥!! °Â°¡ ¹Ù·Î event loop**ÀÌ´Ù.
-
-## ÀÌº¥Æ® ·çÇÁ
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39e8907d-4451-4d14-a355-887c7bbcea60/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39e8907d-4451-4d14-a355-887c7bbcea60/Untitled.png)
-
-- ÀÌº¥Æ® ·çÇÁ´Â whileÀÌ³ª for loop °°ÀÌ ÀÌ·± ·çÇÁ¸¦ °è¼Ó µ¹¸é¼­ ÄÝ½ºÅÃ°ú ÀÌ ÅÂ½ºÅ© Å¥¸¦ °üÂûÇÔ
-- ÀÌ ÀÌº¥Æ® ·çÇÁ´Â µ¹´Ù°¡ ÄÝ½ºÅÃ¿¡ ¾ÆÁ÷ ¹º°¡ ÀÏÀÌ ³²¾Æ ÀÖÀ¸¸é ÄÝ½ºÅÃÀÌ ºñ¿öÁú¶§±îÁö ±â´Ù¸®°í ÄÝ ½ºÅÃÀÌ ´Ù ºñ¿öÁ®¼­ ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀÌ ´õ ÀÌ»ó ÀÏÀ» ÇÏÁö ¾ÊÀ» ¶§, Å¥ ¾È¿¡ ÀÖ´ø ¾ÆÀÌ¸¦ ÄÝ ½ºÅÃÀ¸·Î µ¥¸®°í ¿Â´Ù.
-
-    ? ¿©±â¼­ ±Ã±ÝÇÑ°Í! setTimeout¿¡¼­ 3ÃÊ µÚ¿¡ ÄÜ¼ÖÃ¢¿¡ hello¶ó°í Ãâ·ÂÇÏ´Â ÄÝ¹éÇÔ¼ö¸¦ µî·ÏÇß´Âµ¥, ÀÌ ¸»Àº Áï, 3ÃÊ µÚ¿¡ ÄÝ¹éÇÔ¼ö·Î ÅÂ½ºÅ© Å¥¿¡ µé¾î°í°¡ ÄÝ ½ºÅÃ¿¡ ÀÖ´Â main()ÇÔ¼ö±îÁö ´Ù ½ÇÇàµÇ°í ³ª¼­ ÄÜ¼ÖÃ¢¿¡ hello¸¦ Âï´Â ÄÝ¹éÇÔ¼ö°¡ ½ÇÇàµÇ´Â °ÍÀÎ°¡? Áï? 3ÃÊ µÚ¿¡ ÄÜ¼ÖÃ¢¿¡ hello°¡ ÂïÈ÷´Â °ÍÀÌ ¾Æ´Ï¶ó °á±¹Àº ÄÝ½ºÅÃ¿¡ ÀÖ´Â °ÍµéÀÌ ´Ù ½ÇÇàÀÌ µÇ°í ³ª¼­ ÄÝ¹éÇÔ¼ö°¡ ½ÇÇàµÇ´Â °ÍÀÌ´Ï 3ÃÊº¸´Ù ´õ ´Ê°Ô ½ÇÇàÀÌ µÉ ¼ö µµ ÀÖ´Â °ÍÀÎ°¡?
-
-- ±×·¯¸é ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀÌ ÄÝ ½ºÅÃ¿¡ µé¾î¿Â timeout callback ÀÌ¶ó´Â °ÍÀ» ½ÇÇàÇÏ°Ô µÊ
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11886c9c-a342-4da6-998f-a1e77b8588f1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11886c9c-a342-4da6-998f-a1e77b8588f1/Untitled.png)
-
-### °á·ÐÀûÀ¸·Î
-
-ÀÌº¥Æ® ·çÇÁ´Â ÇÁ·Î¼¼½º°¡ µ¿ÀÛÇÏ´Â µ¿¾È °è¼Ó ·çÇÁ¸¦ µ¹¸é¼­ ÄÝ½ºÅÃÀÌ ºñ¾îÁ® ÀÖ´Ù¸é ÅÂ½ºÅ© Å¥¿¡ µé¾î°¡ ÀÕ´Â ¾ÆÀÌ¸¦ ÄÝ½ºÅÃÀ¸·Î °¡Á®¿Í¼­ ÀÚ¹Ù½ºÅ©¸³Æ® ¿£ÁøÀÌ ¼öÇàÇÒ ¼ö ÀÖµµ·Ï µµ¿ÍÁØ´Ù
-
-## °á·Ð
-
-À¥ APIÁß ÇÏ³ªÀÎ setTimeout ¶Ç´Â setInerval, addClickListener ÀÌ·± ¾ÆÀÌµéÀ» ¾µ ¶§ ¿ì¸®°¡ ÁöÁ¤ÇÑ ÄÝ¹éÇÔ¼ö¸¦ µî·ÏÇØ³õÀ¸¸é ¿øÇÏ´Â ÀÌº¥Æ®°¡ ¹ß»ýÇÏ¸é ¹Ù·Î À¥ APIs´Â ÅÂ½ºÅ© Å¥¿¡ ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹éÇÔ¼ö¸¦ Å¥ ¾ÈÀ¸·Î Áý¾î³Ö°í
-
-ÀÌº¥Æ® ·çÇÁ´Â ºù±Ûºù±Û µ¹¸é¼­ ÄÝ½ºÅÃÀÌ ºñ¾îÁ® ÀÕÀ¸¸é ÅÂ½ºÅ© Å¥¿¡ ÀÖ´Â ¾ÆÀÌ¸¦ ÇÏ³ª¸¸ °¡Áö°í ¿Í¼­ ÄÝ ½ºÅÃ¿¡ ³Ö¾îÁØ´Ù.
-
-ÀÌ·±½ÄÀ¸·Î ÀÚ¹Ù½ºÅ©¸³Æ® ¿£Áø°ú À¥ APIs °¡ µ¿ÀÛÇÔ
+- ì“°ë ˆë“œëŠ” ì–´ë””ì—ì„œë¶€í„° ì–´ë””ê¹Œì§€ ì¼ì„ í–ˆê³  ê·¸ ë‹¤ìŒì—” ì–´ë””ë¡œ ê°€ì•¼ë˜ëŠ”ì§€, ì¼ì˜ íë¦„ì„ ê¸°ì–µí•  ìˆ˜ ìžˆëŠ” ê³ ìœ ì˜ ìŠ¤íƒì´ ì§€ì •ë˜ì–´ì ¸ ìžˆì§€ë§Œ,
+- ë°ì´í„°ë‚˜ ì½”ë“œë‚˜ íž™ ê°™ì€ ê³µí†µì ì¸ ë°ì´í„° ë¦¬ì†ŒìŠ¤ëŠ” í”„ë¡œì„¸ìŠ¤ì— ì•ˆì— ìžˆê¸° ë•Œë¬¸ì— ì“°ë ˆë“œë“¤ì€ ì´ í”„ë¡œì„¸ìŠ¤ì— ê³µí†µì ìœ¼ë¡œ í• ë‹¹ëœ ë¦¬ì†ŒìŠ¤ì— ë™ì‹œë‹¤ë°œì ìœ¼ë¡œ ì ‘ì†í•´ì„œ ë™ì‹œë‹¤ë°œì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ í•´ì•¼ëœë‹¤
+- ë©€í‹°ì“°ë ˆë”©ì„ ìž˜ ëª»í•˜ë©´ ê³µí†µì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ í•˜ë©´ì„œ ì´ ìˆœì„œê°€ ë§žì§€ ì•Šê±°ë‚˜ ë°œìƒí•˜ëŠ” ë¬¸ì œê°€ ìžˆì–´ì„œ ë©€í‹°ì“°ë ˆë”© í”„ë¡œê·¸ëž˜ë°ì´ ì¡°ê¸ˆ ê¹Œë‹¤ë¡­ë‹¤.
 
 
-- **ÄÝ ½ºÅÃ¿¡¼­ ¼öÇàÁßÀÎ task´Â ³¡³¯ ¶§±îÁö º¸ÀåÀÌ µÈ´Ù**
+## ê²°ë¡ 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01036d4d-b91d-431d-a651-407a55466959/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01036d4d-b91d-431d-a651-407a55466959/Untitled.png)
+- í”„ë¡œì„¸ìŠ¤ëŠ” í”„ë¡œê·¸ëž˜ë°ì„ ë™ìž‘í•˜ëŠ” ìµœê³ ì˜ ë‹¨ìœ„
+- ì“°ë ˆë“œëŠ” í”„ë¡œê·¸ëž¨ ì•ˆì—ì„œ ë™ì‹œì— ì—¬ëŸ¬ ê°œê°€ ìˆ˜í–‰ë  ìˆ˜ ìžˆëŠ” ìž‘ì€ ì¼ê¾¼ ë‹¨ìœ„
+
+- ë©€í‹°ì“°ë ˆë”©ì´ë¼ëŠ” ê²ƒì€
+    - í•œ í”„ë¡œì„¸ìŠ¤ ì•ˆì—ì„œ ì—¬ëŸ¬ê°€ì§€ ì“°ë ˆë“œê°€ ë™ì‹œë‹¤ë°œì ìœ¼ë¡œ ë°œìƒí•˜ëŠ” ê²ƒì„ ë§í•œë‹¤
+    - ê·¸ë¦¬ê³  ì´ê±¸ ê°€ì§€ê³  ìžˆìœ¼ë©´ ë™ì‹œì ìœ¼ë¡œ ì¼ì„ ìˆ˜í–‰í•  ìˆ˜ ìžˆê¸° ë•Œë¬¸ì—
+    - íš¨ìœ¨ì ìœ¼ë¡œ í”„ë¡œê·¸ëž˜ë°ì´ ë™ìž‘
+
+- ìžë°”ë¼ëŠ” ì–¸ì–´ëŠ” ì–¸ì–´ìžì²´ì—ì„œ ë©€í‹°ì“°ë ˆë”©ì´ ì§€ì›ë¨
+    - ìœ„ ë§ì€ ìš°ë¦¬ê°€ í”„ë¡œê·¸ëž˜ë°ì„ ì§¤ ë•Œ ì‚¬ìš©ìžê°€ ì´ ë°ì´í„°ë¥¼ ë³´ê³  ìžˆëŠ” ë™ì•ˆ
+        - ì„œë²„ì—ì„œ ë°ì´í„°ë¥¼ ë°›ì•„ì˜¤ëŠ” ê²ƒì€ ì“°ë ˆë“œ Aê°€,
+        - ë‹¤ë¥¸ ì¼ì€ ì“°ë ˆë“œ Bì—ì„œ í•´ì•¼ì§€
+    - ë¼ê³  ê°ê° ì§€ì •í•´ì„œ í”„ë¡œê·¸ëž˜ë°ì„ ì§¤ ìˆ˜ ìžˆë‹¤
+- ìžë°”ë¡œ ë©€í‹°ì“°ë ˆë”©ì„ êµ¬í˜„í•˜ë ¤ë©´ ì¡°ê¸ˆ ë°°ì›Œì•¼ ë˜ëŠ” ê²ƒë“¤ì´ ë§Žë‹¤.
+
+- ìžë°”ìŠ¤í¬ë¦½íŠ¸ëŠ” single threaded language. ì´ ì–¸ì–´ ìžì²´ëŠ” ë©€í‹° ì“°ë ˆë”©ì´ ì—†ë‹¤.
+    - ê·¸ëž˜ì„œ ìžë°”ì—ì„œ í–ˆë˜ ê²ƒì²˜ëŸ¼,
+        - ì´ ì¼ì€ ë°±ê·¸ë¼ìš´ë“œ ì“°ë ˆë“œì—ì„œ
+        - ì´ ì¼ì€ ì“°ë ˆë“œ Aì—ì„œ
+        - ì € ì¼ì€ ì“°ë ˆë“œ Bì—ì„œ
+    - ê°ê° ì§€ì •í•  ìˆ˜ ìžˆëŠ” ë°©ë²•ì´ ì—†ìŒ
+
+- ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì–¸ì–´ ìžì²´ëŠ” ë©€í‹°ì“°ë ˆë”©ì„ í•  ìˆ˜ ìžˆëŠ” ë°©ë²•ì€ ì—†ì§€ë§Œ
+- **ìžë°”ìŠ¤í¬ë¦½íŠ¸ê°€ ë™ìž‘í•˜ê³  ìžˆëŠ” ë¸Œë¼ìš°ì € ìœ„ì—ëŠ” ì¦‰, ë¸Œë¼ìš°ì €ë¼ëŠ” í”„ë¡œê·¸ëž¨ ì•ˆì—ì„œëŠ” ì—¬ëŸ¬ê°€ì§€ ì“°ë ˆë“œê°€ ë“¤ì–´ ìžˆìŒ**
+- ê·¸ëž˜ì„œ ìš°ë¦¬ê°€ ë¸Œë¼ìš°ì €, ì¦‰ web apisë¥¼ ì´ìš©í•˜ê²Œ ë˜ë©´ ë©€í‹°ì“°ë ˆë”©ì´ ê°€ëŠ¥í•˜ë‹¤.
+- ìžë°”ìŠ¤í¬ë¦½íŠ¸ê°€ ë™ìž‘í•˜ëŠ” ì´ ëŸ°íƒ€ìž„ í™˜ê²½ì—ì„œ ì¦‰, **ìžë°”ìŠ¤í¬ë¦½íŠ¸ê°€ ë™ìž‘í•˜ê³  ìžˆëŠ” ì‹¤í–‰í™˜ê²½**ì—ì„œëŠ” ë‹¤ì–‘í•œ ë°©ì‹ì„ ì´ìš©í•´ì„œ ë©€í‹°ì“°ë ˆë”© ê°™ì€ íš¨ê³¼ë¥¼ ì–»ì„ ìˆ˜ ìžˆë‹¤.
+- ìžë°”ìŠ¤í¬ë¦½íŠ¸ê°€ ì‹¤í–‰ë˜ëŠ” ì´ ëŸ°íƒ€ìž„ í™˜ê²½ = ìžë°”ìŠ¤í¬ë¦½íŠ¸ê°€ ì‹¤í–‰ë˜ëŠ” ì‹¤í–‰ í™˜ê²½ ìœ„ì—ì„œëŠ” ë©€í‹°ì“°ë ˆë”© ë¿ë§Œ ì•„ë‹ˆë¼ ì´ë²¤íŠ¸ ë£¨í”„ë¥¼ ì´ìš©í•´ì„œ ì¡°ê¸ˆ ë” ë‹¤ì–‘í•œ ë™ìž‘ì„ ì‹¤í–‰í•  ìˆ˜ ìžˆë‹¤.
+
+
+## ìžë°”ìŠ¤í¬ë¦½íŠ¸ ëŸ°íƒ€ìž„ í™˜ê²½
+
+
+### ìƒí™©
+
+- ì›¹ì–´í”Œë¦¬ì¼€ì´ì…˜ì´ ë¸Œë¼ìš°ì € ìœ„ì— ì˜¬ë¼ê°€ëŠ” ìˆœê°„
+- ì´ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì´ ìš°ë¦¬ê°€ ìž‘ì„±í•œ ì†ŒìŠ¤ì½”ë“œë¥¼ í•œ ì¤„ í•œì¤„ í•´ì„í•˜ê³  ë¶„ì„í•˜ê³  ì‹¤í–‰
+- ì´ ê³¼ì •ì´ ì–´ë–»ê²Œ ì§„í–‰ë˜ëŠ” ê±¸ê¹Œ???
+
+### ê³¼ì •
+
+- ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì€ í¬ê²Œ ë©”ëª¨ë¦¬ íž™ê³¼ ì½œìŠ¤íƒìœ¼ë¡œ ë‚˜ëˆ ì ¸ ìžˆë‹¤
+- **ë©”ëª¨ë¦¬ íž™**ì€
+    - ìš°ë¦¬ê°€ ë°ì´í„°ë¥¼ ë§Œë“¤ ë•Œ, ì¦‰, ë³€ìˆ˜ë¥¼ ì„ ì–¸í•´ì„œ ì˜¤ë¸Œì íŠ¸ë¥¼ í• ë‹¹í•˜ê±°ë‚˜ ë¬¸ìžë‚˜ ìˆ«ìžë¥¼ í• ë‹¹í•˜ê²Œ ë˜ë©´
+    - ê·¸ ë°ì´í„°ë“¤ì€ ì „ë¶€ ë‹¤ ë©”ëª¨ë¦¬ íž™ì— ì €ìž¥ëœë‹¤.
+    - ê·¸ëŸ°ë° ë©”ëª¨ë¦¬ íž™ì€ êµ¬ì¡°ì ìœ¼ë¡œ ì •ë¦¬ëœ ìžë£Œêµ¬ì¡°ê°€ ì•„ë‹ˆë¼ ì´ë ‡ê²Œ ìžë£Œë“¤ì´ ì—¬ê¸°ì €ê¸°ì— ì´ë ‡ê²Œ ì•„ë¬´ê³³ì—ì„œë‚˜ ì €ìž¥ë˜ì–´ì ¸ ìžˆë‹¤.
+
+
+    - ì´ë ‡ê²Œ í• ë‹¹ëœ ë°ì´í„°ë“¤ì´ ê²°ë¡ ì ìœ¼ë¡œ ë©”ëª¨ë¦¬ íž™ì— ë“¤ì–´ê°€ê²Œ ë¨
+
+- **ì½œìŠ¤íƒ**ì€
+    - ìš°ë¦¬ê°€ ì‹¤í–‰í•˜ëŠ” í•¨ìˆ˜ì— ë”°ë¼ì„œ ì°¨ê³¡ì°¨ê³¡ ìŒ“ì•„ë†“ìŒ
+    - ì´ë ‡ê²Œ ë©”ì¸ í•¨ìˆ˜ì—ì„œ first() í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ê³  seconnd()ë¥¼ í˜¸ì¶œí•˜ë©´ ì´ ì½œìŠ¤íƒì— ì°¨ê³¡ì°¨ê³¡ ìŒ“ì´ê²Œ ë¨
+
+
+**!ìž ê¹**
+
+- ìŠ¤íƒì€ LIFO(Last in First out) ë¼ê³ ë„ ë¶ˆë¦¬ëŠ”ë° ì œì¼ ë‚˜ì¤‘ì— ë“¤ì–´ì˜¨ ê²ƒì— ì œì¼ ë¨¼ì € ë‚˜ê°„ë‹¤
+
+    ex)
+
+    - ë³´í†µ ìŠ¤íƒì—ëŠ” pushì™€ pop peekê°™ì€ APIë“¤ì´ ìžˆëŠ”ë°
+    - push(1)ì´ë¼ê³  í•˜ê²Œ ë˜ë©´ 1ì´ë¼ëŠ” ë°ì´í„°ê°€ ìŠ¤íƒì— ë“¤ì–´ê°€ê²Œ ë˜ê³  push(2)í•˜ê²Œ ë˜ë©´ 1ìœ„ì— 2ë¼ëŠ” ë°ì´í„°ê°€ ìŒ“ì´ê²Œ ë˜ëŠ”ë°, ì´ ë•Œ pop()ì„ í˜¸ì¶œí•˜ê²Œ ë˜ë©´ , (popì€ í•˜ë‚˜ë¥¼ ì™ ë¹¼ë‚˜ê°€ëŠ” ê±´ë°) ë‹¹ì—°ížˆ ì œì¼ ë‚˜ì¤‘ì— ë“¤ì–´ì˜¨ ì œì¼ ëŠ¦ê²Œ ë“¤ì–´ì˜¨ ìˆ«ìž 2ê°€ ë‚˜ê°€ê²Œ ëœë‹¤.
+- ì´ë ‡ê²Œ ìŠ¤íƒì€ ì œì¼ ë‚˜ì¤‘ì— ë“¤ì–´ì˜¨ ê²ƒì´ ì œì¼ ë¨¼ì € ë‚˜ê°€ëŠ” ìžë£Œêµ¬ì¡°ë¥¼ ê°€ì§€ê³  ìžˆë‹¤.
+
+- **ì½œìŠ¤íƒ ë™ìž‘ ê³¼ì •**
+
+- ì½œìŠ¤íƒì€ ì–´ë””ë¡œ ëŒì•„ì™€ì•¼ ë˜ëŠ”ì§€ì— ê´€í•œ ì •ë³´ë„ í¬í•¨
+- ì½œìŠ¤íƒì€ í•¨ìˆ˜ë“¤ì´ í˜¸ì¶œí•˜ëŠ” ìˆœì„œë¥¼ ê¸°ì–µí–ˆë‹¤ê°€ í•¨ìˆ˜ê°€ ëë‚˜ë©´ ì›ëž˜ ìžˆë˜ ìžë¦¬ë¡œ ëŒì•„ê°€ê¸° ìœ„í•´ì„œ ì“°ì´ëŠ” ìžë£Œêµ¬ì¡°ì¤‘ í•˜ë‚˜ì´ë‹¤.
+- ëª¨ë“  í”„ë¡œì„¸ìŠ¤ì™€ ì“°ë ˆë“œ ì•ˆì—ëŠ” ê°ê° ì €ë§ˆë‹¤ì˜ ì½œìŠ¤íƒì´ ë“¤ì–´ê°€ ìžˆë‹¤.
+- ì™œëƒ ì¼ì„ ìˆ˜í–‰í•  ë•Œ ì–´ë””ì—ì„œ ì™”ê³  ì–´ë””ë¡œ ë‹¤ì‹œ ê°€ì•¼ë˜ëŠ”ì§€ ì •ë³´ë¥¼ ê¸°ì–µí•´ì•¼í•˜ê¸° ë•Œë¬¸ì´ë‹¤.
+
+- ìœ„ì™€ ê°™ì€ ê²½ìš°ëŠ” ì½œìŠ¤íƒì´ ì–´ë–»ê²Œ ìŒ“ì¼ê¹Œ?
+- endless()ê°€ ê³„ì† ìŒ“ì´ê²Œ ëœë‹¤....
+
+    ì½˜ì†”ì°½ì—ì„œ maximun call stack size exceed ë¼ëŠ” ì˜¤ë¥˜ë¥¼ í™•ì¸í•  ìˆ˜ ìžˆë‹¤. 
+
+- **í”„ë¡œì„¸ìŠ¤ë§ˆë‹¤ ìŠ¤íƒë§ˆë‹¤ ì§€ì •ëœ ì½œìŠ¤íƒ ì‚¬ì´ì¦ˆê°€ ìžˆë‹¤.**
+- í•¨ìˆ˜ì•ˆì—ì„œ ìžê¸° ìžì‹ ì„ ë¶€ë¥´ëŠ” í•¨ìˆ˜ë¥¼ ìž¬ê·€í•¨ìˆ˜ë¼ê³  í•˜ëŠ”ë°
+- ì´ ìž¬ê·€í•¨ìˆ˜ê°€ ìœ ìš©í•˜ì§€ë§Œ ìž˜ëª»ì“°ë©´ ì§€ì •ëœ ì½œìŠ¤íƒ ì‚¬ì´ì¦ˆë¥¼ ì´ˆê³¼í•  ìˆ˜ ìžˆì–´ì•¼ ë˜ì„œ ì¡°ì‹¬í•´ì„œ ì¨ì•¼ í•œë‹¤.
+
+## ê²°ë¡ 
+
+ìš°ë¦¬ê°€ ìž‘ì„±í•œ ì›¹ì–´í”Œë¦¬ì¼€ì´ì…˜ì´ ë¸Œë¼ìš°ì € ìœ„ì— ì˜¬ë¼ ê°€ê²Œ ë˜ë©´ ìš°ë¦¬ì˜ ì†ŒìŠ¤ì½”ë“œë¥¼ ì´ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì´ ì–´ë–»ê²Œ í•´ì„í•˜ê³  ì–´ë–¤ êµ¬ì¡°ë¡œ ë³´ê´€í•˜ëŠ” ì§€ ì•Œì•„ë³´ì•˜ìŒ
+
+- Web APIsëŠ” ë¸Œë¼ìš°ì €ì—ì„œ ì œê³µí•˜ëŠ” apiì´ê¸° ë•Œë¬¸ì— **ë¸Œë¼ìš°ì €ì˜ ë©€í‹°ì“°ë ˆë”©ì„ ì´ìš©í•´ì„œ ë‹¤ì–‘í•œ ì¼ë“¤ì„ ë™ì‹œì— ì‹¤í–‰**í•  ìˆ˜ ê°€ ìžˆë‹¤.
+
+    ex)
+
+    - ëŒ€í‘œì ìœ¼ë¡œ fetchë¥¼ ì´ìš©í•´ì„œ ë°±ì•¤ë“œì—ì„œ ë°ì´í„°ë¥¼ ë°›ì•„ ì˜¨ë‹¤ë“ ì§€
+    - setTimeoutì„ ì´ìš©í•´ì„œ ì¼ì • ê¸°ê°„ì˜ ì‹œê°„ì´ ì§€ë‚œ ë‹¤ìŒì— ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°±í•¨ìˆ˜ë¥¼ ì‹¤í–‰
+
+## ì›¹ APIì™€ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ ì†Œí†µ ê³¼ì •
+
+ex)
+
+ìš°ë¦¬ê°€ second()ë¼ëŠ” í•¨ìˆ˜ ì•ˆì—ì„œ setTimeoutì„ í˜¸ì¶œí–ˆë‹¤ê³  ê°€ì •í•´ë³´ìž. 3ì´ˆ ìžˆë‹¤ê°€ ìš°ë¦¬ê°€ ì½œë°±í•¨ìˆ˜ë¥¼ ë™ë¥µí•´ì„œ ì½˜ì†”ì°½ì— 'hello'ë¥¼ ì¶œë ¥í•œë‹¤ê³  ê°€ì •í•´ë³´ìž.
+
+- setTimeout()ì„ í˜¸ì¶œí•˜ëŠ” ìˆœê°„ ì½œë°±ì—ì„œ ì§€ì›Œì§€ê³  ì›¹ apiëŠ” íƒ€ì´ë¨¸ë¥¼ ì‹œìž‘í•˜ê²Œ ëœë‹¤
+- íƒ€ì´ë¨¸ê°€ ì‹¤í–‰ë˜ê³  ìžˆëŠ” ë™ì•ˆì—ë„, ì¦‰ íƒ€ì´ë¨¸ì™€ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì€ ë³‘ë ¬ì ìœ¼ë¡œ ì‹¤í–‰ì´ ë˜ê³  ìžˆë‹¤ê°€ ì§€ì •ëœ ì‹œê°„ì´ ëë‚˜ë©´ ì›¹ apiëŠ” íƒœìŠ¤í¬ íì— "ì•¼! íƒ€ì´ë¨¸ ëë‚¬ì–´" ì—¬ê¸° ë„¤ê°€ ë“±ë¡í•œ ì½œë°±ì´ì•¼. ì´ ì½œë°± ìžì²´ë¥¼ íƒœìŠ¤í¬ íì— ì§‘ì–´ ë„£ìŠµë‹ˆë‹¤.
+
+    ### ì—¬ê¸°ì„œ íƒœìŠ¤í¬ íëž€ ë¬´ì—‡ì¼ê¹Œ?
+
+    - íë„ ìžë£Œêµ¬ì¡° ì¤‘ í•˜ë‚˜ë¡œ
+        - FIFOë¼ê³  ì•Œë ¤ì ¸ ìžˆëŠ”ë°(First In First Out) ì²˜ìŒì— ë“¤ì–´ì˜¨ê²ƒì´ ì²˜ìŒìœ¼ë¡œ ë‚˜ê°„ë‹¤. ìŠ¤íƒê³¼ ë°˜ëŒ€ë˜ë„¤ì—¼..
+        - íì˜ ëŒ€í‘œì ì¸ apië¡œëŠ” add ì™€ removeê°€ ìžˆìŒ
+
+- ì´ë ‡ê²Œ ì§€ì •ëœ setTimeout() ì´ ëë‚˜ê²Œ ë˜ë©´, setTimeoutì„ í˜¸ì¶œí•  ë•Œ ë“±ë¡í•œ ì½œë°±ì´ íƒœìŠ¤í¬ íì— ë“¤ì–´ì˜¤ê²Œëœë‹¤.
+- ì›¹ apisëŠ” ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°±í•¨ìˆ˜ë¥¼ ì›í•˜ëŠ” ë•Œì— ì§€ì •ëœ ì‹œê°„ì— ì•Œì•„ì„œ íƒœìŠ¤í¬ íì— ë„£ì–´ì¤€ë‹¤. ê·¸ëŸ¼ íƒœìŠ¤í¬ íì— ë“¤ì–´ìž‡ëŠ” ì € ì½œë°±ì€ ì–¸ì œ ì‹¤í–‰ë ê¹Œ?
+- ì´ë ‡ê²Œ **íƒœìŠ¤í íì™€ ì½œìŠ¤íƒì„ ê´€ì°°í•˜ëŠ” ì•„ì´ê°€ í•˜ë‚˜ ìžˆëŠ”ë°!! ê±”ê°€ ë°”ë¡œ event loop**ì´ë‹¤.
+
+## ì´ë²¤íŠ¸ ë£¨í”„
+
+- ì´ë²¤íŠ¸ ë£¨í”„ëŠ” whileì´ë‚˜ for loop ê°™ì´ ì´ëŸ° ë£¨í”„ë¥¼ ê³„ì† ëŒë©´ì„œ ì½œìŠ¤íƒê³¼ ì´ íƒœìŠ¤í¬ íë¥¼ ê´€ì°°í•¨
+- ì´ ì´ë²¤íŠ¸ ë£¨í”„ëŠ” ëŒë‹¤ê°€ ì½œìŠ¤íƒì— ì•„ì§ ë­”ê°€ ì¼ì´ ë‚¨ì•„ ìžˆìœ¼ë©´ ì½œìŠ¤íƒì´ ë¹„ì›Œì§ˆë•Œê¹Œì§€ ê¸°ë‹¤ë¦¬ê³  ì½œ ìŠ¤íƒì´ ë‹¤ ë¹„ì›Œì ¸ì„œ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì´ ë” ì´ìƒ ì¼ì„ í•˜ì§€ ì•Šì„ ë•Œ, í ì•ˆì— ìžˆë˜ ì•„ì´ë¥¼ ì½œ ìŠ¤íƒìœ¼ë¡œ ë°ë¦¬ê³  ì˜¨ë‹¤.
+
+    ? ì—¬ê¸°ì„œ ê¶ê¸ˆí•œê²ƒ! setTimeoutì—ì„œ 3ì´ˆ ë’¤ì— ì½˜ì†”ì°½ì— helloë¼ê³  ì¶œë ¥í•˜ëŠ” ì½œë°±í•¨ìˆ˜ë¥¼ ë“±ë¡í–ˆëŠ”ë°, ì´ ë§ì€ ì¦‰, 3ì´ˆ ë’¤ì— ì½œë°±í•¨ìˆ˜ë¡œ íƒœìŠ¤í¬ íì— ë“¤ì–´ê³ ê°€ ì½œ ìŠ¤íƒì— ìžˆëŠ” main()í•¨ìˆ˜ê¹Œì§€ ë‹¤ ì‹¤í–‰ë˜ê³  ë‚˜ì„œ ì½˜ì†”ì°½ì— helloë¥¼ ì°ëŠ” ì½œë°±í•¨ìˆ˜ê°€ ì‹¤í–‰ë˜ëŠ” ê²ƒì¸ê°€? ì¦‰? 3ì´ˆ ë’¤ì— ì½˜ì†”ì°½ì— helloê°€ ì°ížˆëŠ” ê²ƒì´ ì•„ë‹ˆë¼ ê²°êµ­ì€ ì½œìŠ¤íƒì— ìžˆëŠ” ê²ƒë“¤ì´ ë‹¤ ì‹¤í–‰ì´ ë˜ê³  ë‚˜ì„œ ì½œë°±í•¨ìˆ˜ê°€ ì‹¤í–‰ë˜ëŠ” ê²ƒì´ë‹ˆ 3ì´ˆë³´ë‹¤ ë” ëŠ¦ê²Œ ì‹¤í–‰ì´ ë  ìˆ˜ ë„ ìžˆëŠ” ê²ƒì¸ê°€?
+
+- ê·¸ëŸ¬ë©´ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì´ ì½œ ìŠ¤íƒì— ë“¤ì–´ì˜¨ timeout callback ì´ë¼ëŠ” ê²ƒì„ ì‹¤í–‰í•˜ê²Œ ë¨
+
+
+### ê²°ë¡ ì ìœ¼ë¡œ
+
+ì´ë²¤íŠ¸ ë£¨í”„ëŠ” í”„ë¡œì„¸ìŠ¤ê°€ ë™ìž‘í•˜ëŠ” ë™ì•ˆ ê³„ì† ë£¨í”„ë¥¼ ëŒë©´ì„œ ì½œìŠ¤íƒì´ ë¹„ì–´ì ¸ ìžˆë‹¤ë©´ íƒœìŠ¤í¬ íì— ë“¤ì–´ê°€ ìž‡ëŠ” ì•„ì´ë¥¼ ì½œìŠ¤íƒìœ¼ë¡œ ê°€ì ¸ì™€ì„œ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ì´ ìˆ˜í–‰í•  ìˆ˜ ìžˆë„ë¡ ë„ì™€ì¤€ë‹¤
+
+## ê²°ë¡ 
+
+ì›¹ APIì¤‘ í•˜ë‚˜ì¸ setTimeout ë˜ëŠ” setInerval, addClickListener ì´ëŸ° ì•„ì´ë“¤ì„ ì“¸ ë•Œ ìš°ë¦¬ê°€ ì§€ì •í•œ ì½œë°±í•¨ìˆ˜ë¥¼ ë“±ë¡í•´ë†“ìœ¼ë©´ ì›í•˜ëŠ” ì´ë²¤íŠ¸ê°€ ë°œìƒí•˜ë©´ ë°”ë¡œ ì›¹ APIsëŠ” íƒœìŠ¤í¬ íì— ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°±í•¨ìˆ˜ë¥¼ í ì•ˆìœ¼ë¡œ ì§‘ì–´ë„£ê³ 
+
+ì´ë²¤íŠ¸ ë£¨í”„ëŠ” ë¹™ê¸€ë¹™ê¸€ ëŒë©´ì„œ ì½œìŠ¤íƒì´ ë¹„ì–´ì ¸ ìž‡ìœ¼ë©´ íƒœìŠ¤í¬ íì— ìžˆëŠ” ì•„ì´ë¥¼ í•˜ë‚˜ë§Œ ê°€ì§€ê³  ì™€ì„œ ì½œ ìŠ¤íƒì— ë„£ì–´ì¤€ë‹¤.
+
+ì´ëŸ°ì‹ìœ¼ë¡œ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„ê³¼ ì›¹ APIs ê°€ ë™ìž‘í•¨
+
+
+- **ì½œ ìŠ¤íƒì—ì„œ ìˆ˜í–‰ì¤‘ì¸ taskëŠ” ëë‚  ë•Œê¹Œì§€ ë³´ìž¥ì´ ëœë‹¤**
 
 ## Microtask Queue
 
-- ÅÂ½ºÅ© Å¥´Â À¥ APIs¿¡¼­ ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹éÇÔ¼ö¸¦ ÁöÁ¤µÈ ÀÌº¥Æ®°¡ ¹ß»ýÇßÀ» ¶§ ÅÂ½ºÅ© Å¥¿¡ ³Ö´Â °Í
-- ¸¶ÀÌÅ©·Î ÅÂ½ºÅ© Å¥´Â ÇÁ·Î¹Ì½º¿¡ µî·ÏµÈ ÄÝ¹é, Áï **ÇÁ·Î¹Ì½º°¡ ´Ù ¼öÇàµÇ°í ³ª¸é ±× ´ÙÀ½¿¡ µî·ÏÇÑ then¿¡ µî·ÏÇÑ ÄÝ¹éÇÔ¼ö**, **mutation observer(À¥ APIÁß ÇÏ³ª)¿¡ µî·ÏµÈ ÄÝ¹é**ÀÌ ¸¶ÀÌÅ©·Î ÅÂ½ºÅ© Å¥¿¡ µé¾î¿À°Ô µË´Ï´Ù.
+- íƒœìŠ¤í¬ íëŠ” ì›¹ APIsì—ì„œ ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°±í•¨ìˆ˜ë¥¼ ì§€ì •ëœ ì´ë²¤íŠ¸ê°€ ë°œìƒí–ˆì„ ë•Œ íƒœìŠ¤í¬ íì— ë„£ëŠ” ê²ƒ
+- ë§ˆì´í¬ë¡œ íƒœìŠ¤í¬ íëŠ” í”„ë¡œë¯¸ìŠ¤ì— ë“±ë¡ëœ ì½œë°±, ì¦‰ **í”„ë¡œë¯¸ìŠ¤ê°€ ë‹¤ ìˆ˜í–‰ë˜ê³  ë‚˜ë©´ ê·¸ ë‹¤ìŒì— ë“±ë¡í•œ thenì— ë“±ë¡í•œ ì½œë°±í•¨ìˆ˜**, **mutation observer(ì›¹ APIì¤‘ í•˜ë‚˜)ì— ë“±ë¡ëœ ì½œë°±**ì´ ë§ˆì´í¬ë¡œ íƒœìŠ¤í¬ íì— ë“¤ì–´ì˜¤ê²Œ ë©ë‹ˆë‹¤.
 
     ex)
 
-    - ¸¸¾à ¹é¿£µå¿¡¼­ µ¥ÀÌÅÍ¸¦ ¹Þ¾Æ¿À´Â fetch¸¦ ÀÌ¿ëÇØ¼­ ÇÁ·Î¹Ì½º¸¦ ¸¸µé°í ÇÁ**·Î¹Ì½º¿¡ then**ÀÌ¶ó°í ÄÝ¹é ÇÔ¼ö¸¦ µî·ÏÇØ ³õ¾Ò´Ù °¡Á¤ÇØº¸ÀÚ
-    - ÇÁ·Î¹Ì½º°¡ Àß ³¡³ª¼­ resolve°¡ µÇ¸é ±× ¶§ µî·ÏµÈ ÄÝ¹éÀÌ ¹Ù·Î ¸¶ÀÌÅ©·Î ÅÂ½ºÅ© Å¥¿¡ µé¾î¿À°Ô µÈ´Ù
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a04684ee-dbf2-44ab-a8e2-f993baf657d3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a04684ee-dbf2-44ab-a8e2-f993baf657d3/Untitled.png)
+    - ë§Œì•½ ë°±ì—”ë“œì—ì„œ ë°ì´í„°ë¥¼ ë°›ì•„ì˜¤ëŠ” fetchë¥¼ ì´ìš©í•´ì„œ í”„ë¡œë¯¸ìŠ¤ë¥¼ ë§Œë“¤ê³  í”„**ë¡œë¯¸ìŠ¤ì— then**ì´ë¼ê³  ì½œë°± í•¨ìˆ˜ë¥¼ ë“±ë¡í•´ ë†“ì•˜ë‹¤ ê°€ì •í•´ë³´ìž
+    - í”„ë¡œë¯¸ìŠ¤ê°€ ìž˜ ëë‚˜ì„œ resolveê°€ ë˜ë©´ ê·¸ ë•Œ ë“±ë¡ëœ ì½œë°±ì´ ë°”ë¡œ ë§ˆì´í¬ë¡œ íƒœìŠ¤í¬ íì— ë“¤ì–´ì˜¤ê²Œ ëœë‹¤
 
 ## Render Sequence
 
-- ·»´õ´Â ºê¶ó¿ìÀú¿¡¼­ ¿ì¸®°¡ º¯ÇüÇÑ ÄÚµå°¡ ÁÖ±âÀûÀ¸·Î ¾÷µ¥ÀÌÆ® µÇ±â À§ÇØ¼­ ÁÖ±âÀûÀ¸·Î È£ÃâµÇ´Â ¼ø¼­ÀÎµ¥ ±× Àü¿¡ ¿ì¸®°¡ Request Animation FrameÀÌ¶ó´Â API¸¦ ºÎ¸£¸é ±× ¶§ ¿ì¸®°¡ µî·ÏÇÑ ÄÝ¹éÀº ÀÌ ¸®Äù½ºÆ® ¾Ö´Ï¸ÞÀÌ¼Ç ÇÁ·¹ÀÓ ¾È¿¡ ÀÖ´Â Å¥¿¡ Â÷°îÂ÷°î ½×ÀÎ´Ù
+- ë Œë”ëŠ” ë¸Œë¼ìš°ì €ì—ì„œ ìš°ë¦¬ê°€ ë³€í˜•í•œ ì½”ë“œê°€ ì£¼ê¸°ì ìœ¼ë¡œ ì—…ë°ì´íŠ¸ ë˜ê¸° ìœ„í•´ì„œ ì£¼ê¸°ì ìœ¼ë¡œ í˜¸ì¶œë˜ëŠ” ìˆœì„œì¸ë° ê·¸ ì „ì— ìš°ë¦¬ê°€ Request Animation Frameì´ë¼ëŠ” APIë¥¼ ë¶€ë¥´ë©´ ê·¸ ë•Œ ìš°ë¦¬ê°€ ë“±ë¡í•œ ì½œë°±ì€ ì´ ë¦¬í€˜ìŠ¤íŠ¸ ì• ë‹ˆë©”ì´ì…˜ í”„ë ˆìž„ ì•ˆì— ìžˆëŠ” íì— ì°¨ê³¡ì°¨ê³¡ ìŒ“ì¸ë‹¤
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5db9cdd-1d52-4f07-a17d-1994445eaba2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5db9cdd-1d52-4f07-a17d-1994445eaba2/Untitled.png)
